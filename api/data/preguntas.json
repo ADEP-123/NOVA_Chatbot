@@ -1,0 +1,602 @@
+[
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Qué decreto compila y unifica la reglamentación en materia tributaria, para servir de concordancia principal con el Estatuto Tributario?",
+  "respuesta": "El **Decreto 1625 de 2016** (Decreto Único Reglamentario en Materia Tributaria - DURT) unifica, compila y codifica de manera orgánica las normas reglamentarias vigentes en el país. Su función es garantizar la seguridad jurídica y servir de eje de concordancia directa con las disposiciones del Estatuto Tributario.",
+  "fuente": "Dirección de Impuestos y Aduanas Nacionales (DIAN), Decreto 1625 de 2016."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Cuál es la jerarquía normativa de un Tratado de Doble Imposición (CDI) frente al Estatuto Tributario ordinario?",
+  "respuesta": "Los **Convenios para Evitar la Doble Imposición (CDI)** ratificados por el Congreso y declarados exequibles por la Corte Constitucional se integran al ordenamiento nacional bajo el principio de lex specialis. Poseen **prevalencia y aplicación preferente** sobre las normas del Estatuto Tributario general.",
+  "fuente": "Constitución Política de Colombia, Artículo 9 y Artículo 226; Fallos de la Corte Constitucional (Sentencias C-460 de 2010 y C-491 de 2019)."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿En qué consiste el principio de legalidad en el régimen tributario según la Constitución Política?",
+  "respuesta": "Conforme al **Artículo 338 constitucional**, establece que en tiempos de paz, únicamente el Congreso de la República, las asambleas departamentales y los concejos distritales o municipales tienen la facultad de imponer contribuciones fiscales o parafiscales. La ley debe definir directamente sus elementos esenciales: sujeto activo, sujeto pasivo, hecho generador, base gravable y tarifa.",
+  "fuente": "Constitución Política de Colombia, Artículo 338."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Qué es el principio de irretroactividad de las leyes tributarias?",
+  "respuesta": "Determina que las leyes, ordenanzas o acuerdos que regulen impuestos cuya base sea el resultado de hechos ocurridos durante un período determinado, no pueden aplicarse sino a partir del **período fiscal que comience con posterioridad** a la vigencia de la respectiva norma. No se pueden modificar las reglas de juego de períodos ya consolidados.",
+  "fuente": "Constitución Política de Colombia, Artículo 363; Estatuto Tributario, Artículo 11."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Cómo define el Consejo de Estado el concepto de analogía en el derecho tributario sustancial ?",
+  "respuesta": "La **analogía jurídica es inaplicable** para la creación de tributos, establecimiento de exenciones, exclusiones, beneficios tributarios, amnistías o la imposición de sanciones. Estos elementos están sometidos a reserva legal y estricta reserva de la ley, impidiendo interpretaciones extensivas.",
+  "fuente": "Jurisprudencia de la Sala de lo Contencioso Administrativo del Consejo de Estado de Colombia."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿A partir de qué momento adquiere obligatoriedad un concepto oficial general emitido por la DIAN para los funcionarios de la administración tributaria?",
+  "respuesta": "Los conceptos de carácter general emitidos por la DIAN adquieren **fuerza vinculante y obligatoriedad** para los funcionarios de la administración desde el momento exacto de su **publicación en el Diario Oficial** o en los medios doctrinales autorizados de la entidad. Los contribuyentes pueden sustentar sus actuaciones con base en ellos mientras estén vigentes.",
+  "fuente": "Estatuto Tributario, Artículo 131."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Qué es la \"Cláusula General Antielusión\" incorporada en el marco normativo general de control de la DIAN?",
+  "respuesta": "Es la facultad legal que permite a la DIAN **recategorizar, reconfigurar o desconocer** operaciones, contratos o estructuras comerciales que configuren abuso en materia tributaria. La entidad tiene el poder de aplicar la realidad de la **sustancia económica** sobre las formas jurídicas utilizadas para obtener ventajas fiscales indebidas.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 869."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Cuál es la diferencia entre un impuesto nacional y una tasa aduanera dentro del sistema tributario?",
+  "respuesta": "El **impuesto nacional** es una carga impositiva obligatoria y de carácter general que se exige sin que exista una contraprestación directa e inmediata por parte del Estado. La **tasa aduanera** corresponde a una contraprestación económica destinada estrictamente a recuperar los costos de un servicio específico prestado por la administración al usuario de comercio exterior.",
+  "fuente": "Sentencias de la Corte Constitucional de Colombia sobre la tipología de los tributos."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Qué establece el principio de equidad tributaria en la jurisprudencia constitucional ?",
+  "respuesta": "Exige un diseño impositivo que garantice dos dimensiones: la **equidad horizontal**, que ordena dar un trato idéntico a los contribuyentes que se encuentren bajo la misma situación económica y fáctica; y la **equidad vertical**, que exige una carga progresiva diferenciada para quienes poseen mayor capacidad económica.",
+  "fuente": "Constitución Política de Colombia, Artículo 363."
+ },
+ {
+  "categoria": "Marco Normativo General",
+  "pregunta": "¿Qué papel juega la Unidad de Valor Tributario (UVT) en el marco normativo tributario y legal del país?",
+  "respuesta": "Es la medida de valor estándar obligatoria empleada para **homogeneizar, reajustar y expresar** las obligaciones de carácter fiscal. Permite la actualización automática anual de sanciones, topes de ingresos, cuantías de retención y bases gravables sin necesidad de emitir nuevas leyes, ajustándose con base en el IPC.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 868."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Cuáles son los tres eventos obligatorios que debe registrar un adquiriente para que una factura electrónica con pago a plazos sirva como soporte de costos, deducciones o impuestos descontables?",
+  "respuesta": "Para la validez fiscal en compras a crédito o con pago a plazos, el adquirente debe inscribir obligatoriamente en la plataforma DIAN:\n\n- El **acuse de recibo** de la factura electrónica.\n- El **recibo de los bienes o servicios** adquiridos.\n- La **aceptación expresa** del documento (o en su defecto, la aceptación tácita por el vencimiento de los términos).",
+  "fuente": "Estatuto Tributario, Artículo 616-1."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Qué es el código CUFE y cuál es su función en la facturación electrónica?",
+  "respuesta": "El **Código Único de Factura Electrónica (CUFE)** es una cadena alfanumérica única generada mediante un algoritmo matemático estructurado a partir de los datos intrínsecos del documento. Su función principal es **identificar de manera unívoca** cada factura electrónica en el territorio nacional, garantizando su autenticidad e inalterabilidad.",
+  "fuente": "Resoluciones vigentes de la DIAN sobre el anexo técnico de facturación electrónica."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Bajo qué estándar de lenguaje informático internacional debe estar obligatoriamente codificado el archivo de la factura electrónica enviado a la DIAN?",
+  "respuesta": "El documento debe ser generado y transmitido de manera obligatoria bajo la estructura de lenguaje **XML**, empleando el estándar internacional **UBL 2.1 (Universal Business** **Language)** de conformidad con los lineamientos del anexo técnico.",
+  "fuente": "Manuales y anexos técnicos del Sistema de Facturación Electrónica de la DIAN."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Qué documento electrónico se debe emitir para anular, corregir o modificar montos o datos de una factura electrónica de venta previamente validada por la DIAN?",
+  "respuesta": "Se debe expedir e informar de manera obligatoria una **Nota Crédito Electrónica**. Este documento contable y tecnológico debe referenciar explícitamente el **CUFE** de la factura original que se está modificando o anulando y transmitirse para su validación formal.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 616-1 y resoluciones reglamentarias."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Cuál es el límite máximo en UVT que permite el uso del tiquete POS como soporte de costos, deducciones o impuestos descontables en renta e IVA?",
+  "respuesta": "El tiquete emitido por sistema POS **no posee validez legal** como soporte de costos, deducciones en Renta, ni IVA descontable, independientemente del monto de la transacción. En el sistema electrónico actual, el POS electrónico se transmite a la DIAN pero no otorga estos beneficios fiscales; si el comprador requiere soporte para sus declaraciones, el vendedor está obligado a emitir una **Factura Electrónica de Venta**.",
+  "fuente": "Estatuto Tributario, Artículo 616-1, Ley 2277 de 2022 y Resoluciones compiladas de la DIAN."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Qué es el sistema RADIAN en el contexto de la facturación electrónica?",
+  "respuesta": "Es la plataforma tecnológica administrada por la DIAN encargada de registrar la **hoja de vida, circulación, endoso, limitación y trazabilidad comercial** de las facturas electrónicas de venta que operan como **títulos valores**. Es el ecosistema habilitador para operaciones seguras de factoring.",
+  "fuente": "Resoluciones de la DIAN sobre el registro y circulación de títulos valores electrónicos."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Qué contingencia tipo \"Facturador\" debe activarse cuando el contribuyente tiene problemas técnicos en su software que le impiden expedir la factura electrónica?",
+  "respuesta": "Debe activarse la **Contingencia Tipo 03 (Fallas del Facturador)**. Bajo este procedimiento, el obligado debe emitir las facturas de forma física mediante **talonario o papel** utilizando una numeración de contingencia autorizada. Una vez solventado el inconveniente, dispone de un plazo de **48 horas para transcribir y transmitir** dichos documentos en formato XML a la plataforma de la DIAN.",
+  "fuente": "Resolución 000165 de 2023 de la DIAN."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Quiénes están obligados de forma general a facturar electrónicamente según los topes de ingresos del régimen común?",
+  "respuesta": "Están obligadas de manera general todas las **personas jurídicas**. En el caso de las **personas naturales**, la obligatoriedad se activa si realizan actividades comerciales y sus ingresos brutos anuales superan las **3.500 UVT**, o si cumplen las condiciones para ser responsables del Impuesto sobre las Ventas (IVA).",
+  "fuente": "Estatuto Tributario, Artículo 437 y Decreto 358 de 2020."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Cuál es la consecuencia jurídica para una factura de venta electrónica que no cuente con la validación previa de la DIAN?",
+  "respuesta": "El documento emitido **no produce efectos fiscales ni comerciales**. Esto implica que carece de fuerza probatoria y el adquirente no podrá utilizarlo bajo ninguna circunstancia como soporte de costos, deducciones en Renta o IVA descontable.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 616-1."
+ },
+ {
+  "categoria": "Facturación Electrónica",
+  "pregunta": "¿Qué datos de identificación del adquirente se deben diligenciar si este corresponde a un consumidor final que no requiere su identificación en el documento?",
+  "respuesta": "En los casos donde no se requiera identificar individualmente al comprador, se debe registrar obligatoriamente la frase literal **\"Consumidor Final\"** y diligenciar de forma exclusiva el **NIT genérico 222222222222** (doce números dos), omitiendo el dígito de verificación.",
+  "fuente": "Anexos técnicos del sistema de facturación de la DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Cuál es el plazo máximo mensual otorgado por la DIAN para transmitir el documento soporte de pago de nómina electrónica?",
+  "respuesta": "La transmisión electrónica de los devengos y descuentos laborales devengados por los empleados debe realizarse a más tardar dentro de los **primeros diez (10) días hábiles del mes siguiente** al cual corresponden los pagos.",
+  "fuente": "Resoluciones del Sistema de Documentos Soporte Electrónicos de la DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Cuál es la finalidad fiscal primordial del Documento Soporte de Pago de Nómina Electrónica?",
+  "respuesta": "Su finalidad esencial es actuar como el **soporte legal e indispensable** para validar y aceptar la procedencia de los **costos y deducciones en el Impuesto sobre la Renta y complementarios** que se derivan de los pagos por conceptos laborales de una compañía.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 616-1."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Qué documento electrónico se debe emplear para subsanar errores aritméticos o de contenido detectados en una nómina electrónica previamente validada?",
+  "respuesta": "Se debe expedir de forma obligatoria una **Nota de Ajuste del Documento Soporte de Pago de Nómina Electrónica**. Este archivo tecnológico anula y **reemplaza en su totalidad** la información errónea reportada anteriormente para el empleado y el período correspondiente.",
+  "fuente": "Resoluciones técnicas regulatorias de la DIAN sobre el documento de nómina."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Los contribuyentes del Régimen Simple de Tributación (RST) están obligados a reportar nómina electrónica a la DIAN?",
+  "respuesta": "Sí. Los contribuyentes inscritos en el RST están obligados a generar y transmitir la nómina electrónica en su condición de empleadores si pretenden hacer valer dichos pagos laborales para efectos fiscales (como la **disminución o descuento tributario** de los aportes patronales a pensiones en su declaración anual) y cumplir el control de flujos de caja.",
+  "fuente": "Estatuto Tributario, Título VIII (Impuesto Unificado Bajo el Régimen Simple)."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Qué código alfanumérico único debe contener cada documento soporte de pago de nómina electrónica para su validez técnica?",
+  "respuesta": "Debe contener obligatoriamente el **CUNE (Código Único de Nómina Electrónica)**. Consiste en una cadena alfanumérica calculada mediante un algoritmo matemático que concatena los datos de liquidación y del empleador para asegurar que el archivo de nómina no sea alterado posterior a su validación.",
+  "fuente": "Anexos técnicos de nómina electrónica emitidos por la DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Cuál es la periodicidad con la que se debe generar y transmitir la información de la nómina electrónica a la DIAN?",
+  "respuesta": "La periodicidad es **estrictamente mensual**. El sistema exige consolidar en un único archivo XML por empleado la totalidad de los conceptos devengados y deducidos a lo largo del mes calendario respectivo.",
+  "fuente": "Resoluciones generales sobre el sistema de facturación y documentos soporte de la DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Qué sucede con los pagos realizados a trabajadores independientes bajo contratos de prestación de servicios en el reporte de nómina electrónica?",
+  "respuesta": "Los pagos a contratistas independientes **no se incluyen en el reporte de nómina electrónica**, dado que corresponden a honorarios o servicios comerciales. Su soporte fiscal idóneo es el **\"Documento Soporte en Adquisiciones Efectuadas a No Obligados a Facturar\"**, el cual debe ser emitido electrónicamente por el comprador.",
+  "fuente": "Estatuto Tributario, Artículo 616-1 y conceptos unificados de la DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Qué elementos componen el valor total devengado que se detalla en el archivo XML de la nómina electrónica?",
+  "respuesta": "Se compone de la sumatoria acumulada en el mes de conceptos como: salario básico, comisiones, horas extras, recargos nocturnos, dominicales y festivos, viáticos, vacaciones, prima de servicios, cesantías e intereses a las cesantías.",
+  "fuente": "Código Sustantivo del Trabajo de Colombia y Resoluciones Técnicas DIAN."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Qué información correspondiente a deducciones del empleado debe obligatoriamente reportarse en la nómina electrónica?",
+  "respuesta": "Deben reportarse todos los descuentos aplicados al salario del empleado, incluyendo los **aportes obligatorios a salud y pensión**, fondo de solidaridad pensional, retenciones en la fuente laborales, libranzas, embargos judiciales y cualquier otro descuento autorizado por la ley o el trabajador.",
+  "fuente": "Resoluciones de la DIAN sobre contenido mínimo de los documentos equivalentes y soportes."
+ },
+ {
+  "categoria": "Nómina Electrónica",
+  "pregunta": "¿Cuál es el soporte idóneo para sustentar fiscalmente los costos de nómina correspondientes a los meses en que se presentan contingencias tecnológicas masivas reportadas por la DIAN?",
+  "respuesta": "Se autoriza el uso temporal de los **desprendibles o soportes de nómina físicos tradicionales** para proceder con el pago. El contribuyente mantiene la obligación legal de transmitir los archivos estructurados XML consolidados a la DIAN en un plazo de **48 horas hábiles** posteriores al restablecimiento total de los servicios tecnológicos de la entidad.",
+  "fuente": "Normativa general sobre contingencias del sistema electrónico de la DIAN."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Cuál es el sustento legal principal del Estatuto Tributario que faculta a la DIAN para exigir anualmente la presentación de la información exógena?",
+  "respuesta": "La facultad legal reside en el **Artículo 631 del Estatuto Tributario**. Este artículo otorga la potestad a la DIAN de exigir a personas naturales y jurídicas el reporte detallado de las transacciones celebradas con terceros para fines de fiscalización y cruce de información.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 631."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Cómo deben reportarse en el Formato 1001 aquellos pagos acumulados por tercero que no superen el monto mínimo exigido para identificación individual según la resolución anual?",
+  "respuesta": "Los pagos que de manera individual por tercero no superen el umbral establecido en la resolución anual, pueden agruparse de forma global en el **Formato 1001** bajo el concepto de **\"cuantías menores\"**, identificando la operación con el **NIT genérico 222222222**.",
+  "fuente": "Resoluciones anuales expedidas por la DIAN sobre especificaciones técnicas de exógena."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué información específica se reporta a través del Formato 1007 en la información exógena nacional?",
+  "respuesta": "En el **Formato 1007** se deben detallar los **ingresos propios recibidos** durante el período fiscal. Exige identificar el NIT del tercero adquirente, el valor de los ingresos brutos, así como las devoluciones, rebajas y descuentos comerciales otorgados.",
+  "fuente": "Resoluciones de la DIAN sobre los formatos de medios magnéticos."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué formato es el destinado para reportar los saldos de cuentas por pagar (pasivos) vigentes a 31 de diciembre del año gravable reportado?",
+  "respuesta": "Los saldos de pasivos u obligaciones vigentes al cierre del año fiscal deben informarse de manera obligatoria a través del **Formato 1009**.",
+  "fuente": "Resoluciones regulatorias de la DIAN sobre medios magnéticos de fin de año."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué formato se utiliza para reportar los saldos de cuentas por cobrar (cartera comercial) a favor del contribuyente al cierre del año fiscal?",
+  "respuesta": "Los saldos correspondientes a la cartera comercial y cuentas por cobrar a favor del informante al 31 de diciembre deben detallarse en el **Formato 1008**.",
+  "fuente": "Resoluciones de especificaciones técnicas anuales de exógena de la DIAN."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Bajo qué sanción legal se castiga la presentación extemporánea o con errores de la información exógena requerida por la DIAN?",
+  "respuesta": "Se rige estrictamente por la **Sanción por no enviar información** consagrada en el **Artículo 651 del Estatuto Tributario**. Esta norma establece multas monetarias calculadas sobre los valores no informados, informados erróneamente o presentados de forma extemporánea, sujetas a los topes máximos legales establecidos.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 651."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué formato deben diligenciar las empresas para reportar de forma específica las retenciones en la fuente que les practicaron a ellos sus clientes durante el año gravable?",
+  "respuesta": "Las retenciones en la fuente a título de renta, IVA o timbre que le fueron practicadas a la empresa por parte de sus clientes deben informarse detalladamente en el **Formato 1003**.",
+  "fuente": "Resoluciones técnicas anuales de medios magnéticos de la DIAN."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué formato está destinado para informar la composición del patrimonio líquido referente a socios, accionistas o comuneros con sus respectivos saldos de acciones y aportes a fin de año?",
+  "respuesta": "La estructura patrimonial, los aportes sociales y el valor de las acciones o cuotas partes de los socios o accionistas vigentes al cierre fiscal deben presentarse obligatoriamente en el **Formato 1010**.",
+  "fuente": "Resoluciones de exógena expedidas por la DIAN."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Los consorcios y uniones temporales están obligados a presentar información exógena de manera independiente a sus miembros?",
+  "respuesta": "Sí. Los consorcios y uniones temporales tienen la obligación de reportar de forma autónoma e independiente las operaciones que ejecutaron. Para este fin, deben emplear los formatos específicos diseñados para contratos de colaboración empresarial, tales como el **Formato 5247** y concordantes.",
+  "fuente": "Resoluciones anuales de la DIAN sobre obligados a informar medios magnéticos."
+ },
+ {
+  "categoria": "Información Exógena",
+  "pregunta": "¿Qué formato utiliza la DIAN para que las personas jurídicas reporten los saldos de los impuestos descontables solicitados en las declaraciones del IVA del año gravable?",
+  "respuesta": "El reporte y la conciliación detallada de los valores solicitados como IVA descontable en las declaraciones periódicas a lo largo del año deben informarse a través del **Formato 1005**.",
+  "fuente": "Resoluciones regulatorias de la DIAN sobre formatos anuales de conciliación de IVA."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Cuál es el sistema cedular obligatorio que deben utilizar las personas naturales residentes en Colombia para depurar su impuesto sobre la renta?",
+  "respuesta": "Deben aplicar de manera obligatoria el sistema de determinación cedular, el cual divide las rentas según su origen en: **Cédula General** (que subclasifica rentas de trabajo, de capital y no laborales), **Cédula de Pensiones**, y **Cédula de Dividendos y Participaciones**. Cada cédula se depura de forma independiente según sus propias reglas fiscales.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 330."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿A qué porcentaje está fijada la tarifa general del impuesto sobre la renta para las personas jurídicas (sociedades nacionales y establecimientos permanentes)?",
+  "respuesta": "La tarifa general ordinaria del impuesto sobre la renta aplicable a las sociedades comerciales nacionales, de capital y establecimientos permanentes de entidades extranjeras está fijada en el **treinta y cinco por ciento (35%)**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 240."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Cuál es el límite porcentual y absoluto anual para las rentas exentas y deducciones imputables aplicable a la Cédula General de las personas naturales?",
+  "respuesta": "La sumatoria de las deducciones y rentas exentas aceptadas fiscalmente no puede exceder en conjunto el **cuarenta por ciento (40%)** de los ingresos netos de la Cédula General. Adicionalmente, cuenta con un tope físico y absoluto inalterable de **1.340 UVT anuales**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 336 (Modificado por la Ley 2277 de 2022)."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Qué tarifa del impuesto a las ganancias ocasionales se aplica de forma general a las utilidades derivadas de la venta de activos fijos poseídos por dos años o más, y a las herencias?",
+  "respuesta": "La tarifa impositiva general aplicable a los conceptos calificados como ganancias ocasionales (venta de activos fijos poseídos por 2 años o más, herencias, legados y donaciones) está unificada en el **quince por ciento (15%)**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículos 313 y 314."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Qué requisito técnico-contable es indispensable para que un costo o gasto por depreciación de activos fijos sea deducible en la declaración de renta de una persona jurídica?",
+  "respuesta": "Requiere de manera concurrente: que el activo depreciable esté **directamente vinculado a la actividad productora de renta** de la empresa, y que la alícuota de depreciación anual registrada contablemente no supere los **límites máximos porcentuales fiscales** estipulados por el Gobierno Nacional para cada categoría de activo.",
+  "fuente": "Estatuto Tributario Colombiano, Artículos 128 y 137."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿En qué consiste el principio de \"bancarización\" para la aceptación fiscal de costos, deducciones, pasivos e impuestos descontables?",
+  "respuesta": "Consiste en la exigencia legal de canalizar los pagos a terceros a través de las herramientas del **sistema financiero** (transferencias bancarias, cheques con cláusula de restricción, tarjetas de crédito/débito o depósitos en cuenta). Aquellos desembolsos ejecutados en efectivo que superen los topes porcentuales o de UVT individuales y colectivos previstos por la ley serán **desconocidos y rechazados fiscalmente**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 771-5."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Cuál es el término general de firmeza de una declaración ordinaria del impuesto sobre la renta en Colombia si no se generan saldos a favor ni se aplican beneficios especiales?",
+  "respuesta": "El término general de firmeza es de **tres (3) años**. Este plazo se contabiliza a partir de la fecha de vencimiento del plazo fijado por el Gobierno para declarar, o desde la fecha de su radicación si se presentó de manera extemporánea, siempre y cuando no se haya notificado un Requerimiento Especial por presuntas inexactitudes.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 714."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Qué es la renta presuntiva y cuál es su tarifa vigente actual para los contribuyentes del impuesto sobre la renta?",
+  "respuesta": "Es una presunción legal que determinaba que el contribuyente obtenía un rendimiento económico mínimo calculado sobre su patrimonio líquido del año anterior. No obstante, su tarifa vigente actual quedó reducida de forma definitiva al **cero por ciento (0%)**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 188."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Qué condición temporal debe cumplir un activo fijo para que su enajenación genere una ganancia ocasional en lugar de una renta ordinaria?",
+  "respuesta": "El bien o activo enajenado debe haber permanecido de forma ininterrumpida en el patrimonio del contribuyente por un término equivalente a **dos (2) años o más**. De lo contrario, la utilidad de la venta tributará como una renta líquida ordinaria.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 300."
+ },
+ {
+  "categoria": "Impuesto de Renta",
+  "pregunta": "¿Cómo se determina el costo fiscal de los inventarios enajenados para los contribuyentes obligados a llevar contabilidad?",
+  "respuesta": "Se calcula aplicando los sistemas de valuación técnica aceptados por los marcos técnicos normativos contables vigentes en el país (tales como el método de **Primeras en Entrar, Primeras en Salir - PEPS** o el método de **Costo Promedio Ponderado**), cuidando que coincida con las limitaciones normativas que prevé el control fiscal.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 65."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Cuál es la tarifa general del Impuesto sobre las Ventas (IVA) aplicable a la mayoría de los bienes y servicios grabados?",
+  "respuesta": "La tarifa general ordinaria del IVA en el territorio colombiano está fijada actualmente en el **diecinueve por ciento (19%)**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 468."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Qué periodicidad de declaración y pago del IVA aplica para aquellos responsables cuyos ingresos brutos del año gravable anterior sean inferiores a 92.000 UVT?",
+  "respuesta": "Los responsables del impuesto cuyos ingresos brutos acumulados al cierre del año inmediatamente anterior sean menores a las 92.000 UVT, deben declarar y pagar el impuesto con una **periodicidad cuatrimestral**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 600."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Quiénes están obligados a declarar y pagar el IVA con una periodicidad estrictamente bimestral?",
+  "respuesta": "Están obligados de manera fija los catalogados como **Grandes Contribuyentes**, las personas naturales o jurídicas cuyos ingresos brutos al 31 de diciembre del año anterior sean **iguales o superiores a 92.000 UVT**, así como todas las personas que ostenten la condición de **exportadores**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 600."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿En qué momento se causa el IVA en la prestación de servicios intangibles o consultorías de carácter comercial?",
+  "respuesta": "Se causa en el momento en que se verifique el primero de los siguientes eventos: la **fecha de emisión de la factura de venta**, la terminación efectiva del servicio prestado, o la ejecución del **pago / abono en cuenta** correspondiente por parte del cliente.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 429."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Cuál es el tratamiento del IVA pagado en la adquisición de activos fijos reales productivos para las empresas jurídicas?",
+  "respuesta": "El IVA pagado en la compra de activos fijos reales productivos **no se toma como IVA descontable** en la declaración periódica de dicho impuesto, sino que la ley permite solicitarlo en su totalidad como un **descuento tributario directo en la declaración anual del Impuesto sobre la Renta**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 258-1."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Qué bienes se consideran exentos del IVA en el marco de la producción agropecuaria colombiana?",
+  "respuesta": "Son aquellos bienes señalados expresamente en la norma (como carnes frescas, huevos, leche, entre otros) que están gravados a una **tarifa del cero por ciento (0%)**. Esta condición faculta legalmente a sus productores y comercializadores a solicitar ante la DIAN la **devolución o compensación** de los saldos a favor generados por los IVAS pagados en la adquisición de materias primas e insumos.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 477."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Qué sanción formal se genera si un responsable del IVA presenta su declaración omitiendo la firma del revisor fiscal o contador público estando obligado a ello?",
+  "respuesta": "La omisión de la firma requerida provoca que **la declaración se entienda como no presentada** ante la administración tributaria. Esto obliga al contribuyente a radicar nuevamente el formulario subsanando el error y liquidando de forma simultánea la **sanción por extemporaneidad** aplicable.",
+  "fuente": "Estatuto Tributario Colombiano, Artículos 580 y 650-1."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Qué es el \"mecanismo de retención en la fuente a título de IVA\" (ReteIVA) y cuál es su tarifa general de retención establecida?",
+  "respuesta": "Es un sistema de recaudo anticipado del impuesto mediante el cual el comprador, actuando como agente de retención autorizado, retiene una porción del IVA que le factura su proveedor. La tarifa general de retención está fijada en el **quince por ciento (15%) del valor del IVA generado** y facturado en la operación.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 437-1."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Están gravadas con IVA las exportaciones de servicios prestados desde Colombia hacia el exterior para ser utilizados exclusivamente fuera del territorio nacional?",
+  "respuesta": "No. Las exportaciones de servicios se encuentran calificadas por la ley como **exentas del IVA (tarifa del 0%)**. Esto le otorga a las empresas exportadoras el derecho pleno de solicitar la devolución de los saldos a favor que se originen por costos vinculados directamente a dicha actividad.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 481."
+ },
+ {
+  "categoria": "IVA",
+  "pregunta": "¿Bajo qué formulario oficial electrónico de la DIAN se debe presentar la declaración del Impuesto sobre las Ventas?",
+  "respuesta": "La declaración y liquidación del IVA debe realizarse y presentarse de forma obligatoria a través de los servicios digitales de la DIAN diligenciando el **Formulario 300**.",
+  "fuente": "Resoluciones de prescripción de formularios anuales de la DIAN."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Cuál es la naturaleza jurídica de la retención en la fuente en el ordenamiento tributario colombiano?",
+  "respuesta": "La retención en la fuente **no constituye un impuesto independiente**, sino que es un mecanismo administrativo de **recaudo anticipado** gradual de impuestos principales del orden nacional o territorial, tales como el Impuesto sobre la Renta, el IVA y el Impuesto de Industria y Comercio (ICA).",
+  "fuente": "Estatuto Tributario Colombiano, Libro Segundo (Disposiciones Generales)."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Qué consecuencia legal acarrea el presentar la declaración mensual de retención en la fuente sin el pago total de los valores retenidos dentro de los plazos legales?",
+  "respuesta": "Provoca que la declaración sea **ineficaz de pleno derecho**. Esto significa que carece de cualquier efecto jurídico o validez ante el Estado, considerándose no presentada. Obliga al agente de retención a volver a presentar el formulario liquidando los intereses moratorios y las sanciones pecuniarias por extemporaneidad pertinentes.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 580-1."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Bajo qué formulario electrónico oficial de la DIAN se debe declarar mensualmente la retención en la fuente?",
+  "respuesta": "Se debe presentar de manera obligatoria cada mes mediante el canal virtual de la DIAN utilizando el **Formulario 350**.",
+  "fuente": "Resoluciones administrativas y técnicas de la DIAN de prescripción de formularios."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Qué es un \"Autorretenedor\" a título del impuesto sobre la renta?",
+  "respuesta": "Es aquel contribuyente que, tras cumplir requisitos de volumen de operaciones y ser designado formalmente por la DIAN (o por mandato de ley), posee la facultad de **practicarse a sí mismo la retención en la fuente** al momento de causar o recibir un ingreso. Esta figura releva al comprador externo de la obligación de practicarle la retención.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 368 y decretos reglamentarios del DURT 1625 de 2016."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Qué porcentaje de retención en la fuente por rentas de trabajo se debe aplicar de forma mínima si el trabajador opta por el procedimiento 1 de depuración mensual?",
+  "respuesta": "Se debe aplicar la tabla de retención progresiva regulada por la ley. La base gravable depurada mensual se expresa en UVT, y la primera tarifa impositiva gravable inicia en el **diecinueve por ciento (19%)** aplicable exclusivamente sobre el monto de la base que exceda las primeras **95 UVT**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 383."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Cuál es la tarifa general de retención en la fuente a título de renta por el concepto de honorarios prestados por personas jurídicas?",
+  "respuesta": "La tarifa general por el concepto de honorarios (donde predomina el factor intelectual o profesional) cuando el prestador del servicio es una persona jurídica, está fijada en el **once por ciento (11%)** sobre el valor total del pago o abono en cuenta.",
+  "fuente": "Decretos reglamentarios unificados del sector tributario compilados en el Decreto 1625 de 2016."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Están obligados a practicar retención en la fuente los contribuyentes que pertenezcan al Régimen Simple de Tributación (RST) al momento de realizar compras de bienes o servicios?",
+  "respuesta": "Por regla general, los contribuyentes del RST **no actúan como agentes de retención en la fuente a título de renta** frente a terceros en sus operaciones de compra. No obstante, la ley prevé dos excepciones obligatorias: sí deben practicar retención en los pagos por **rentas de trabajo (nómina)** y en las retenciones correspondientes al **impuesto del IVA** (ReteIVA).",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 911."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿En qué consiste la autorretención especial de renta introducida como contraprestación a la exoneración de aportes patronales a salud, SENA e ICBF?",
+  "respuesta": "Es una autorretención de carácter mensual obligatoria para las sociedades comerciales nacionales sobre la totalidad de sus ingresos gravados con el impuesto sobre la renta. Se creó como un mecanismo de compensación por la exoneración que gozan las empresas del pago de aportes patronales al SENA, ICBF y salud. Sus tarifas están segmentadas en **0.55%, 1.10% o 2.20%** de acuerdo con el código de actividad económica principal del declarante.",
+  "fuente": "Decreto 1625 de 2016 y modificaciones del Decreto 261 de 2023."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Qué documento técnico emitido por el agente retenedor certifica los valores retenidos al contribuyente durante el año gravable anterior para que este pueda descontarlos en su renta?",
+  "respuesta": "Es el **Certificado de Retenciones en la Fuente**. En el caso específico de empleados con rentas de trabajo y pensiones, se emite de forma estandarizada a través del **Formulario 220**. Este documento detalla los montos totales pagados y las retenciones practicadas que el contribuyente podrá restar legítimamente en su denuncio de renta.",
+  "fuente": "Estatuto Tributario Colombiano, Artículos 378 y 379."
+ },
+ {
+  "categoria": "Retención en la Fuente",
+  "pregunta": "¿Cuál es el tope mínimo de cuantía en pesos o UVT para que sea obligatorio practicar retención en la fuente por el concepto de \"Compras Generales\"?",
+  "respuesta": "La retención en la fuente por compras generales de bienes se torna de carácter obligatorio cuando la transacción individual o factura sea **igual o superior a las 27 UVT**. Operaciones por valores inferiores se encuentran exentas de la práctica de retención por este concepto.",
+  "fuente": "Decretos reglamentarios compilados en el Decreto 1625 de 2016"
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Cuál es el tope máximo de ingresos brutos anuales que permite a una persona natural o jurídica optar por el Régimen Simple de Tributación en Colombia?",
+  "respuesta": "El límite cuantitativo máximo fijado por la norma para registrarse o permanecer dentro del RST es que los ingresos brutos, ya sean de naturaleza ordinaria o extraordinaria, obtenidos en el año gravable inmediatamente anterior, sean **inferiores a 100.000 UVT**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 905."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Qué impuestos del orden nacional y territorial se unifican y sustituyen dentro de la tarifa única del Régimen Simple de Tributación?",
+  "respuesta": "El RST sustituye e integra bajo un solo esquema tarifario simplificado los siguientes impuestos: el **Impuesto sobre la Renta** del orden nacional, el **Impuesto Nacional al Consumo** (específicamente para expendio de comidas y bebidas), y el impuesto territorial de **Industria y Comercio (ICA)** consolidado de manera conjunta con sus respectivas sobretasas bomberil y de avisos y tableros.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 903"
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Qué beneficio financiero directo respecto a los aportes de nómina tienen los empleadores inscritos en el Régimen Simple de Tributación?",
+  "respuesta": "Tienen la gabela financiera de tomar como un **descuento tributario directo** (restando valor por valor del impuesto unificado a pagar) el **100% de los aportes a pensiones** que hayan sido efectivamente pagados por parte de la empresa a favor de sus trabajadores vinculados por nómina.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 912."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Bajo qué formulario electrónico oficial de la DIAN se debe presentar el anticipo bimestral obligatorio del Régimen Simple?",
+  "respuesta": "La liquidación y el respectivo pago obligatorio de los anticipos periódicos bimestrales deben realizarse de forma digital en la plataforma DIAN a través del **Formulario 2593**.",
+  "fuente": "Resoluciones normativas y reglamentarias del Régimen Simple de Tributación de la DIAN"
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Qué formulario electrónico oficial de la DIAN se utiliza para presentar la declaración consolidada anual del Régimen Simple de Tributación?",
+  "respuesta": "Los contribuyentes deben consolidar la totalidad de sus ingresos, descuentos y anticipos anuales presentando su declaración definitiva en el **Formulario 260**.",
+  "fuente": "Resoluciones de prescripción de formularios anuales de la DIAN."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Pueden las sociedades comerciales cuyos socios sean personas jurídicas extranjeras pertenecer al Régimen Simple de Tributación?",
+  "respuesta": "No, **tienen una prohibición expresa de ley**. La norma estipula taxativamente que para que una persona jurídica pueda inscribirse y tributar bajo el RST, la totalidad de sus socios, accionistas o partícipes deben corresponder a **personas naturales residentes en el territorio colombiano**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 906 (Sujetos que no pueden optar por el RST)."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Cuál es la periodicidad general de facturación y el tratamiento del IVA para los contribuyentes del RST que pertenecen al grupo de tiendas, minimercados y peluquerías?",
+  "respuesta": "Los contribuyentes enmarcados en el Grupo 1 (tiendas de barrio, minimercados, micromercados y peluquerías) están calificados legalmente como **no responsables del IVA**. Esto implica que en sus ventas corrientes están exentos de liquidar, cobrar o facturar dicho impuesto, y por ende, no están obligados a diligenciar ni presentar declaraciones periódicas de IVA.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 908 y normatividad complementaria del DURT 1625 de 2016."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Qué incentivo por pagos electrónicos ofrece el Régimen Simple de Tributación para reducir el impuesto a pagar de la declaración anual?",
+  "respuesta": "El régimen otorga un estímulo financiero que permite restar directamente del impuesto a cargo el **0.5% del valor total de los ingresos percibidos** por ventas cuyos pagos hayan sido realizados por los clientes mediante **canales electrónicos** (tarjetas de crédito, débito, transferencias bancarias verificables).",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 912."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Hasta qué fecha límite del año fiscal tienen los contribuyentes ordinarios para tramitar su traslado voluntario al Régimen Simple de Tributación en el RUT?",
+  "respuesta": "Los contribuyentes del régimen ordinario que deseen migrar de forma voluntaria al RST disponen como plazo máximo improrrogable hasta el **último día hábil del mes de febrero** del año gravable en curso para efectuar la actualización correspondiente en su RUT.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 909 y decretos reglamentarios vigentes."
+ },
+ {
+  "categoria": "Régimen Simple (RST)",
+  "pregunta": "¿Qué sucede si un contribuyente inscrito en el RST incumple con el pago de sus anticipos bimestrales por un término superior al establecido por la ley?",
+  "respuesta": "Si el contribuyente incurre en mora recurrente u omisión prolongada de los pagos, la DIAN iniciará un proceso administrativo para decretar la **exclusión de oficio del Régimen Simple**. Como consecuencia, el sujeto será trasladado de manera automática al régimen ordinario de impuestos, perdiendo todos los beneficios y debiendo declarar renta de forma retroactiva.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 914 y jurisprudencia    contenciosa"
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Cuál es la diferencia fundamental en la teoría tributaria entre una obligación sustancial y una obligación formal?",
+  "respuesta": "La **obligación sustancial** corresponde estrictamente al objeto material del tributo, es decir, el **deber de pagar en dinero la suma liquidada** al Estado. Por su parte, la **obligación formal** abarca todos los deberes de carácter operativo e instrumental encaminados a facilitar el control (tales como diligenciar formularios, **inscribirse y actualizar el RUT**, emitir factura electrónica y llevar los libros de contabilidad al día).",
+  "fuente": "Estatuto Tributario Colombiano, Libro Quinto (Procedimiento Tributario)."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué es el Registro Único Tributario (RUT) y ante qué entidad del Estado es de carácter obligatorio su trámite e inscripción antes de iniciar actividades comerciales?",
+  "respuesta": "El **RUT** es el sistema único administrado por el Estado que sirve para **identificar, ubicar y clasificar** a los sujetos que posean la calidad de contribuyentes, declarantes o agentes de retención. Su inscripción y trámite formal es de carácter obligatorio y debe gestionarse ante la **Dirección de Impuestos y Aduanas Nacionales (DIAN)** antes de iniciar cualquier operación comercial.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 555-2."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿A cuánto asciende la sanción mínima aplicable a las declaraciones tributarias nacionales administradas por la DIAN durante el respectivo año gravable?",
+  "respuesta": "La sanción mínima que liquida un contribuyente por cualquier infracción formal formalizada en una declaración tributaria equivale estrictamente a **10 UVT vigentes** al momento en que se efectúe la liquidación o corrección. Este valor mínimo se aplica obligatoriamente incluso si el cálculo matemático de la sanción ordinaria arroja un resultado menor.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 639."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué sanción por extemporaneidad se genera de forma general por cada mes o fracción de mes de retraso si una declaración tributaria se presenta después de su vencimiento sin que medie emplazamiento previo?",
+  "respuesta": "Se causa de forma automática una multa equivalente al **cinco por ciento (5%) del total del impuesto a cargo** liquidado en el formulario, cobrándose de forma progresiva por cada mes o fracción de mes calendario de retraso. La norma estipula que el acumulado de esta sanción cuenta con un tope máximo que **no puede exceder el ciento por ciento (100%) del impuesto** determinado.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 641."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué es la sanción por inexactitud y cuál es su tarifa general cuando se omiten ingresos o se incluyen costos inexistentes en una declaración oficial?",
+  "respuesta": "Es la penalidad pecuniaria impuesta por la administración cuando el declarante introduce datos falsos, omite ingresos reales, incluye deducciones ficticias o costos inexistentes con el propósito de aminorar el saldo a pagar o inflar un saldo a favor. Su tarifa general está fijada en el **ciento por ciento (100%) de la diferencia numérica** determinada entre la declaración inexacta y la liquidación correcta.",
+  "fuente": "Estatuto Tributario Colombiano, Artículos 647 y 648."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Cuál es el término legal que tiene un contribuyente para corregir voluntariamente su declaración tributaria provocando un mayor valor a pagar o un menor saldo a favor?",
+  "respuesta": "El declarante dispone de un plazo máximo de **tres (3) años** para efectuar enmiendas voluntarias que incrementen el valor a pagar o disminuyan su saldo a favor. Este término se contabiliza desde la fecha de vencimiento fijada originalmente para declarar y caduca de inmediato si la DIAN notifica de forma previa un Requerimiento Especial para dicha vigencia.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 588."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué obligación formal deben cumplir las personas jurídicas colombianas respecto a los libros de contabilidad de su negocio frente a la normativa comercial y fiscal?",
+  "respuesta": "Deben registrar cronológicamente sus operaciones comerciales llevando la contabilidad con estricta sujeción a los **marcos técnicos normativos contables vigentes en el país**. Asimismo, están obligadas por ley a salvaguardar y conservar de forma organizada la totalidad de los soportes internos, externos y comprobantes contables por un período de tiempo que no puede ser inferior al **término de firmeza que posea la declaración fiscal** vinculada a dicho período.",
+  "fuente": "Código de Comercio de Colombia, Artículo 19, y Estatuto Tributario, Artículo 632."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué es el beneficio de auditoría en la declaración del impuesto sobre la renta y cómo afecta los términos de firmeza?",
+  "respuesta": "Es una prerrogativa de incentivo legal que permite **reducir el término general de firmeza de la declaración a solo 6 o 12 meses**. Para consolidar este beneficio, el contribuyente debe cumplir concurrentemente con **incrementar su impuesto neto de renta** en un porcentaje mínimo estipulado frente al año inmediatamente anterior, realizar la presentación oportuna del formulario y efectuar el pago total de la obligación dentro de los plazos reglamentarios.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 689-3 o normas de reforma aplicables."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué consecuencia formal y sancionatoria acarrea no actualizar los datos de ubicación o de identificación en el RUT estando obligado por ley?",
+  "respuesta": "Omitir la actualización oportuna de modificaciones en la información del RUT faculta a la DIAN a decretar la **clausura o cierre temporal del establecimiento de comercio** por un término de un (1) día por cada día de retraso en el trámite. En los casos donde el obligado no disponga de un local comercial u oficina abierta al público, la sanción se tasará mediante una **multa económica fija expresada en UVT**.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 658-3."
+ },
+ {
+  "categoria": "Obligaciones Formales",
+  "pregunta": "¿Qué obligación formal especial tienen los contribuyentes nacionales que posean activos financieros o bienes materiales fuera del territorio colombiano al cierre del año?",
+  "respuesta": "Tienen el deber formal autónomo de presentar anualmente ante la DIAN la **Declaración de Activos en el Exterior**. Esta obligación informativa e instrumental debe radicarse de forma exclusiva a través de los canales electrónicos diligenciando el **Formulario 160** dentro de los vencimientos fijados por el calendario fiscal.",
+  "fuente": "Estatuto Tributario Colombiano, Artículo 607."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué ley estatutaria regula de forma integral el régimen de protección de datos personales y el derecho de Habeas Data en Colombia?",
+  "respuesta": "El marco general que dicta las pautas para la recolección, almacenamiento y administración de datos personales está regulado de forma integral mediante la **Ley Estatutaria 1581 de 2012**.",
+  "fuente": "Congreso de la República de Colombia, Ley 1581 de 2012."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué principio de la Ley 1581 de 2012 impide que los datos personales recolectados a través de sistemas de IA sean utilizados para finalidades distintas a las autorizadas expresamente por el usuario?",
+  "respuesta": "Es el **Principio de Finalidad**. Este precepto jurídico ordena que cualquier actividad de tratamiento o cruce de datos personales ejecutada por empresas o algoritmos de Inteligencia Artificial debe obedecer exclusivamente a una **finalidad legítima, clara y lícita**, la cual debió ser informada y autorizada de manera previa y expresa por el Titular de la información.",
+  "fuente": "Ley 1581 de 2012, Artículo 4."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué entidad del orden nacional ejerce la función de autoridad de control y vigilancia sobre el cumplimiento de las normas de protección de datos personales y sanciona su vulneración en Colombia?",
+  "respuesta": "La autoridad nacional encargada de vigilar las bases de datos corporativas e imponer sanciones administrativas o pecuniarias es la **Superintendencia de Industria y Comercio (SIC)**, actuando de forma específica a través de la **Delegatura para la Protección de Datos Personales**.",
+  "fuente": "Ley 1581 de 2012 y decretos reglamentarios unificados del sector comercio."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Cómo define la legislación colombiana de Habeas Data el concepto de \"Datos Sensibles\"?",
+  "respuesta": "Son calificados como **Datos Sensibles** aquellos datos íntimos cuyo núcleo afecta directamente la esfera privada del titular, o cuyo tratamiento indebido o filtración tiene el potencial de **generar discriminación o segregación** (tales como la orientación política, convicciones filosóficas o religiosas, historial de datos de salud, vida sexual o los **datos biométricos** como huellas, rostro o voz).",
+  "fuente": "Ley 1581 de 2012, Artículo 5."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué tipo de autorización se requiere obligatoriamente del titular para poder realizar el tratamiento o almacenamiento de sus datos de salud o biométricos en plataformas algorítmicas?",
+  "respuesta": "El tratamiento de datos sensibles requiere de forma forzosa una **autorización explícita, previa, informada y por escrito** (o mediante un mecanismo digital equivalente que permita su posterior verificación de auditoría). En el acto de captura, se debe notificar explícitamente al titular que, al tratarse de datos sensibles, posee el derecho fundamental a negarse a otorgar dicha autorización.",
+  "fuente": "Ley 1581 de 2012 y Sentencias de la Corte Constitucional de Colombia."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué es el Registro Nacional de Bases de Datos (RNBD) administrado por la Superintendencia de Industria y Comercio?",
+  "respuesta": "Es el **directorio público e institucional** de consulta obligatoria donde las personas jurídicas calificadas por ley deben inscribir e informar detalladamente la existencia de las bases de datos personales que administran. En dicho registro se debe detallar la cantidad de registros, el tipo de datos tratados y las **políticas y protocolos de seguridad técnica** implementados por la empresa.",
+  "fuente": "Circulares y resoluciones regulatorias de la Superintendencia de Industria y Comercio (SIC)."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Cuál es la diferencia entre el rol de \"Responsable del Tratamiento\" y el de \"Encargado del Tratamiento\" en la gestión de datos corporativos?",
+  "respuesta": "El **Responsable del Tratamiento** corresponde a la persona jurídica o natural que recolecta los datos y toma las **decisiones estratégicas sobre las finalidades** y usos de la base de datos. El **Encargado del Tratamiento** es el sujeto o proveedor tecnológico externo que realiza materialmente la manipulación u operación técnica de los datos **por cuenta y delegación del responsable**.",
+  "fuente": "Ley 1581 de 2012, Artículo 3."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué derecho constitucional faculta a los ciudadanos colombianos a solicitar la supresión o eliminación de sus datos de los servidores de una empresa si la finalidad autorizada ya se cumplió?",
+  "respuesta": "Es el **derecho de supresión de datos (o revocatoria de la autorización)**. Constituye una de las facultades esenciales que componen el derecho fundamental al Habeas Data, el cual permite al ciudadano exigir el borrado seguro de su información cuando las finalidades contractuales hayan expirado o la ley lo determine.",
+  "fuente": "Constitución Política de Colombia, Artículo 15, y Ley 1581 de 2012."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué sanción máxima económica puede imponer la Superintendencia de Industria y Comercio a las empresas que violen las normas de protección de datos personales?",
+  "respuesta": "La SIC está facultada para imponer multas institucionales sucesivas que pueden ascender hasta los **2.000 salarios mínimos legales mensuales vigentes (SMLMV)**. Adicionalmente, cuenta con la potestad de ordenar la suspensión de actividades de tratamiento, el bloqueo preventivo o el **cierre definitivo e inmediato de la operación** de las bases de datos de la compañía infractora.",
+  "fuente": "Ley 1581 de 2012, Artículo 23."
+ },
+ {
+  "categoria": "Protección de Datos / IA",
+  "pregunta": "¿Qué directriz sobre el uso ético y legal de la Inteligencia Artificial frente a la privacidad de datos ha emitido el Gobierno colombiano a través de sus guías oficiales de política pública?",
+  "respuesta": "A través del **Marco Ético para la Inteligencia Artificial en Colombia**, el Gobierno ordena que todo desarrollo automatizado incorpore de forma obligatoria los principios de **privacidad desde el diseño y por defecto**, garantía de transparencia algorítmica ante sesgos ocultos, trazabilidad tecnológica y un esquema de gobernanza con **control humano permanente** sobre las decisiones algorítmicas.",
+  "fuente": "Departamento Administrativo de la Presidencia (DAPRE) y guías técnicas de la Superintendencia de Industria y Comercio."
+ }
+]

@@ -17,10 +17,12 @@ Consultorio Empresarial UDES | Proyecto PROP-DET07-26
 ```
 nova/
 ├── api/            Backend (Node + Express)
+│   ├── data/           normas.json (matriz) y preguntas.json (100 preguntas de referencia)
 │   └── src/
-│       └── migrations/   Archivos .sql que se aplican solos al arrancar
+│       ├── migrations/   Archivos .sql que se aplican solos al arrancar
+│       ├── llm.js        Proveedor de IA (chat y embeddings)
+│       └── rag/          Ingesta del corpus y búsqueda
 ├── web/            Frontend (React + Vite)
-├── data/           Matriz normativa y preguntas de ejemplo
 └── docker-compose.yml
 ```
 
@@ -141,3 +143,42 @@ Si en el futuro un proveedor no es compatible con OpenAI, se agrega un nuevo `pr
 > Protección de datos: con un servicio de pago, las preguntas de los usuarios se envían a ese proveedor (transferencia internacional de datos, Ley 1581). Actualiza la política de privacidad antes de activarlo.
 
 Para desarrollar sin modelo, usa `LLM_PROVIDER=fake` y `EMBED_PROVIDER=fake`: el chat responde un texto de prueba y busca en el corpus por palabras.
+
+## Corpus normativo (cómo sabe NOVA lo que sabe)
+
+NOVA usa **RAG** (generación aumentada con recuperación):
+
+1. **Ingesta.** Para cada norma de `api/data/normas.json` se indexa su **ficha** (la fila de la matriz) y se intenta descargar el **texto completo** desde `ingest_urls`. Se usa primero el normograma oficial de la DIAN y, si falla, la URL de la matriz. El texto se parte en fragmentos de unos 1.200 caracteres, respetando los artículos, y cada fragmento se convierte en un vector con el modelo de embeddings.
+2. **Búsqueda.** Ante cada pregunta se buscan los fragmentos más parecidos. Si la pregunta menciona un artículo ("artículo 592"), se priorizan los fragmentos de ese artículo.
+3. **Respuesta.** El modelo responde solo con esos fragmentos y cita la fuente.
+
+Las 100 preguntas de la plantilla (`api/data/preguntas.json`) también se indexan, y además sirven como ejemplos del formato de respuesta.
+
+### Indexar
+
+```bash
+docker compose exec api npm run ingest          # indexa lo nuevo, lo modificado y lo que falló
+docker compose exec api npm run ingest -- --all # reindexa todo (p. ej. si cambiaste de modelo de embeddings)
+```
+
+La primera vez tarda (el Estatuto Tributario y el DUR 1625 son documentos grandes); con una GPU de 4 GB, calcula entre 20 y 40 minutos. Estados posibles de una fuente:
+
+| Estado | Significado |
+|---|---|
+| `indexed` | Ficha y texto completo indexados |
+| `partial` | No se pudo descargar el texto completo; solo está la ficha. Sube el PDF desde el panel admin |
+| `error` | Falló la indexación (p. ej. Ollama apagado); se reintenta en la próxima ingesta |
+| `pending` | Nueva o modificada, falta indexar |
+
+### Actualizar la normativa
+
+- **Editar o agregar normas:** modifica `api/data/normas.json` (mismos campos que la matriz) y reconstruye la API. Al arrancar, las fuentes cambiadas quedan como `pending`; luego corre la ingesta.
+- **Subir un PDF** (una resolución nueva, un concepto DIAN o el texto de una norma que no se pudo descargar): desde el panel admin.
+
+### Actualización hecha sobre la matriz original (octubre 2026)
+
+- **Corrección:** el tope de 1.400 UVT para 2025 es $69.718.600, no $69.692.000.
+- **Res. 000227 y 000233 de 2025:** se completaron sus descripciones (Resolución Única DIAN y su modificación de exógena).
+- **Normas nuevas:** UVT 2026 ($52.374, Res. 000238 de 2025), calendario tributario 2026, Decreto 1474 de 2025 (**no vigente**), decretos legislativos 173 y 240 de 2026 (impuesto al patrimonio de personas jurídicas, normalización y alivios), Res. 000011 de 2026 (regularización de facturación) y Res. 000021 de 2026 (exógena AG 2025).
+- **Estado de cada norma:** cada una tiene un campo `estado` (vigente, derogada, histórica, no vigente) para que NOVA no presente como vigente algo que ya no lo está.
+- **Por verificar:** el formulario 210 (N26) podría haber sido prescrito por la Res. 000044 de 2024 y no por la 000193. Está anotado en la ficha.

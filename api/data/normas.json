@@ -1,0 +1,695 @@
+[
+ {
+  "codigo": "N01",
+  "tipo": "Ley",
+  "identificacion": "Ley 2277 de 2022 (Reforma Tributaria Estructural)",
+  "fecha": "13/12/2022",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Reforma tributaria estructural. Modifica renta (PN y PJ), crea impuesto al patrimonio permanente, introduce tributación por presencia económica significativa, ajusta tarifas progresivas, limita rentas exentas y deducciones.",
+  "sujetos": "Personas naturales residentes y no residentes, personas jurídicas, grandes contribuyentes, régimen tributario especial",
+  "relevancia": "Base normativa principal del chatbot. Define tarifas, límites de deducciones, cédulas de renta, patrimonio e impuesto de dividendos vigentes desde 2023.",
+  "url": "https://www.dian.gov.co/impuestos/sociedades/Regimen-Tributario-Especial-RTE/Herramientas/Documents/Ley-2277-2022-Reforma-Tributaria.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/ley_2277_2022.htm",
+   "https://www.dian.gov.co/impuestos/sociedades/Regimen-Tributario-Especial-RTE/Herramientas/Documents/Ley-2277-2022-Reforma-Tributaria.pdf"
+  ]
+ },
+ {
+  "codigo": "N02",
+  "tipo": "Ley",
+  "identificacion": "Ley 2010 de 2019 (Ley de Crecimiento Económico)",
+  "fecha": "27/12/2019",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Ley de Crecimiento Económico que restableció y consolidó las medidas de la Ley 1943/2018 (declarada inexequible). Crea de manera permanente el Régimen Simple de Tributación (RST), mantiene el impuesto de normalización tributaria y ajusta tarifas de renta.",
+  "sujetos": "Personas naturales y jurídicas colombianas. Especialmente pequeñas y medianas empresas beneficiarias del RST.",
+  "relevancia": "Norma de origen del RST. El chatbot NOVA debe referenciarla al explicar la figura del régimen simple y sus beneficios para PYME.",
+  "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=104028",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/ley_2010_2019.htm",
+   "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=104028"
+  ]
+ },
+ {
+  "codigo": "N03",
+  "tipo": "Ley",
+  "identificacion": "Ley 1943 de 2018 (Ley de Financiamiento – Antecedente)",
+  "fecha": "28/12/2018",
+  "categoria": "Marco Normativo General",
+  "estado": "no vigente (inexequible, Sentencia C-481 de 2019)",
+  "descripcion": "Ley de Financiamiento. Declarada inexequible por la Corte Constitucional mediante Sentencia C-481 de 2019, con efectos diferidos al 1 de enero de 2020. Antecedente directo de la Ley 2010/2019. Introdujo inicialmente el RST y la reducción de tarifas corporativas.",
+  "sujetos": "Contribuyentes del impuesto de renta y responsables de IVA que estuvieron sujetos a sus disposiciones durante el año gravable 2019.",
+  "relevancia": "Antecedente normativo relevante para contextualizar la evolución del RST. El chatbot debe diferenciarla de la Ley 2010/2019 y aclarar que no está vigente.",
+  "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90294",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/ley_1943_2018.htm",
+   "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90294"
+  ]
+ },
+ {
+  "codigo": "N04",
+  "tipo": "Decreto",
+  "identificacion": "Decreto 1625 de 2016 (DUT – Decreto Único Tributario)",
+  "fecha": "11/10/2016",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Decreto Único Reglamentario en materia tributaria. Compila todas las normas reglamentarias del sistema tributario nacional. Base reglamentaria del ET. Actualizado permanentemente por decretos modificatorios (incluye Decreto 2270/2019).",
+  "sujetos": "Todos los contribuyentes y responsables de obligaciones tributarias nacionales en Colombia.",
+  "relevancia": "Fuente reglamentaria fundamental. El chatbot debe citarlo junto al ET cuando explique aspectos reglamentarios de renta, IVA, RST y retención en la fuente.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1625_2016.htm",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1625_2016.htm"
+  ]
+ },
+ {
+  "codigo": "N05",
+  "tipo": "Decreto",
+  "identificacion": "Decreto 2270 de 2019 (Modifica DUT 1625/2016)",
+  "fecha": "13/12/2019",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Modifica y adiciona el Decreto Único Tributario 1625/2016 en materia de: impuesto de renta para sociedades, Régimen Simple de Tributación (RST) y otras obligaciones formales, en desarrollo de la Ley 2010/2019.",
+  "sujetos": "Personas jurídicas y personas naturales comerciantes sujetas al impuesto de renta ordinario o al RST.",
+  "relevancia": "Complementa al Decreto 1625/2016 con las disposiciones reglamentarias de la Ley de Crecimiento. Necesario para responder consultas sobre RST y renta corporativa.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_2270_2019.htm",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_2270_2019.htm"
+  ]
+ },
+ {
+  "codigo": "N06",
+  "tipo": "Decreto",
+  "identificacion": "Decreto 2460 de 2013 (RUT – Registro Único Tributario)",
+  "fecha": "28/11/2013",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Reglamenta el Registro Único Tributario (RUT): inscripción, actualización y cancelación. Establece los atributos que identifican a los contribuyentes ante la DIAN.",
+  "sujetos": "Todos los contribuyentes: personas naturales, jurídicas, no residentes con actividad en Colombia.",
+  "relevancia": "El chatbot debe orientar sobre cómo inscribirse, actualizar y consultar el RUT, paso inicial en cualquier gestión tributaria.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_2460_2013.htm",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_2460_2013.htm"
+  ]
+ },
+ {
+  "codigo": "N07",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "ET – Libros I al V (compilado con Ley 2277/2022)",
+  "fecha": "Permanente",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Norma codificada que contiene los impuestos nacionales: renta, IVA, retención en la fuente, patrimonio, timbre, GMF. Actualizado con Ley 2277/2022 y demás reformas.",
+  "sujetos": "Todos los contribuyentes y responsables de impuestos nacionales en Colombia.",
+  "relevancia": "Fuente primaria del corpus del chatbot. Cada pregunta sobre tarifas, deducciones, exenciones o plazos se resuelve remitiendo a artículos específicos del ET.",
+  "url": "https://estatuto.co/",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm"
+  ]
+ },
+ {
+  "codigo": "N08",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 616-1 ET (Sistema de facturación)",
+  "fecha": "Permanente (mod. Ley 2277/2022)",
+  "categoria": "Facturación Electrónica",
+  "estado": "vigente",
+  "descripcion": "Base legal del sistema de facturación en Colombia. Define la factura de venta, el documento equivalente y los documentos soporte como instrumentos del sistema de facturación. Habilita a la DIAN para reglamentar la facturación electrónica.",
+  "sujetos": "Todos los comerciantes, artesanos y personas que ejerzan profesiones liberales obligados a expedir factura.",
+  "relevancia": "Norma primaria que sustenta todas las resoluciones de facturación electrónica. El chatbot debe citarla como fundamento legal al responder sobre obligaciones de facturación.",
+  "url": "https://estatuto.co/616-1",
+  "ingest_urls": [
+   "https://estatuto.co/616-1"
+  ]
+ },
+ {
+  "codigo": "N09",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000042 de 2020 (Sistema de facturación electrónica)",
+  "fecha": "05/05/2020",
+  "categoria": "Facturación Electrónica",
+  "estado": "derogada por la Resolución 000165 de 2023",
+  "descripcion": "Adopta el sistema de facturación electrónica, el Anexo Técnico de Factura Electrónica de Venta y el Documento Soporte en adquisiciones a no obligados a facturar. Define los sujetos obligados y los plazos graduales de implementación.",
+  "sujetos": "Contribuyentes del impuesto de renta y/o de IVA obligados a expedir factura electrónica de venta según cronograma DIAN.",
+  "relevancia": "Norma fundacional del sistema de FE vigente. El chatbot debe referenciarla para responder sobre qué es la FE, quiénes están obligados y cómo se implementa.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000042%20de%2005-05-2020.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0042_2020.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000042%20de%2005-05-2020.pdf"
+  ]
+ },
+ {
+  "codigo": "N10",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000012 de 2021 (FE – documentos electrónicos)",
+  "fecha": "09/02/2021",
+  "categoria": "Facturación Electrónica",
+  "estado": "histórica (modificaba la Res. 000042 de 2020, derogada por la Res. 000165 de 2023)",
+  "descripcion": "Modifica la Resolución 000042/2020. Ajusta los Anexos Técnicos de factura electrónica, incorpora nuevos documentos electrónicos al sistema y actualiza requisitos técnicos de transmisión.",
+  "sujetos": "Mismos sujetos de la Resolución 000042/2020.",
+  "relevancia": "Actualización técnica relevante del sistema de FE. El chatbot debe tenerla para responder con precisión sobre los requisitos técnicos actualizados.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000012%20de%2009-02-2021.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0012_2021.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000012%20de%2009-02-2021.pdf"
+  ]
+ },
+ {
+  "codigo": "N11",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000037 de 2021 (FE – ajustes técnicos)",
+  "fecha": "29/04/2021",
+  "categoria": "Facturación Electrónica",
+  "estado": "histórica (modificaba la Res. 000042 de 2020, derogada por la Res. 000165 de 2023)",
+  "descripcion": "Modifica la Resolución 000042/2020 y la 000012/2021. Realiza ajustes adicionales al Anexo Técnico de Factura Electrónica y amplía el alcance de los documentos soporte electrónicos.",
+  "sujetos": "Obligados a facturar electrónicamente y proveedores tecnológicos habilitados por la DIAN.",
+  "relevancia": "Parte de la cadena evolutiva de la FE. El chatbot debe conocer esta norma para responder sobre modificaciones técnicas al sistema.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000037%20de%2029-04-2021.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0037_2021.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000037%20de%2029-04-2021.pdf"
+  ]
+ },
+ {
+  "codigo": "N12",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000063 de 2021 (FE – habilitación proveedores)",
+  "fecha": "14/07/2021",
+  "categoria": "Facturación Electrónica",
+  "estado": "histórica (modificaba la Res. 000042 de 2020, derogada por la Res. 000165 de 2023)",
+  "descripcion": "Modifica parcialmente la Resolución 000042/2020. Establece disposiciones sobre habilitación de proveedores tecnológicos de facturación electrónica y ajusta requisitos del sistema.",
+  "sujetos": "Proveedores tecnológicos de FE y emisores de factura electrónica.",
+  "relevancia": "Relevante para responder consultas sobre cómo elegir y habilitarse con un proveedor tecnológico de facturación electrónica.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000063%20de%2014-07-2021.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0063_2021.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000063%20de%2014-07-2021.pdf"
+  ]
+ },
+ {
+  "codigo": "N13",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000151 de 2021 (FE – nuevos documentos)",
+  "fecha": "30/11/2021",
+  "categoria": "Facturación Electrónica",
+  "estado": "histórica (modificaba la Res. 000042 de 2020, derogada por la Res. 000165 de 2023)",
+  "descripcion": "Modifica la Resolución 000042/2020. Incorpora el Anexo Técnico del Documento Soporte de Pago en adquisiciones a no obligados y actualiza parámetros del sistema de facturación electrónica.",
+  "sujetos": "Contribuyentes que realizan adquisiciones a personas no obligadas a facturar y emisores de FE.",
+  "relevancia": "Amplía el alcance del sistema de FE al documento soporte. El chatbot debe orientar sobre cuándo y cómo emitir este documento.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000151%20de%2030-11-2021.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0151_2021.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000151%20de%2030-11-2021.pdf"
+  ]
+ },
+ {
+  "codigo": "N14",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000028 de 2022 (FE – ajustes 2022)",
+  "fecha": "08/03/2022",
+  "categoria": "Facturación Electrónica",
+  "estado": "histórica (modificaba la Res. 000042 de 2020, derogada por la Res. 000165 de 2023)",
+  "descripcion": "Modifica las resoluciones 000042/2020, 000012, 000037, 000063 y 000151 de 2021. Consolida ajustes al sistema de facturación electrónica vigentes para el periodo 2022-2023.",
+  "sujetos": "Todos los obligados a facturar electrónicamente y sus proveedores tecnológicos.",
+  "relevancia": "Norma de consolidación de los ajustes 2021-2022 al sistema FE. El chatbot debe referenciarla junto a las resoluciones anteriores para dar respuestas completas sobre FE.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000028%20de%2008-03-2022.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0028_2022.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000028%20de%2008-03-2022.pdf"
+  ]
+ },
+ {
+  "codigo": "N15",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000165 de 2023 (FE – Versión 1.9 Anexo Técnico)",
+  "fecha": "01/11/2023",
+  "categoria": "Facturación Electrónica",
+  "estado": "vigente",
+  "descripcion": "Desarrolla el sistema de facturación: adopta Versión 1.9 del Anexo Técnico de Factura Electrónica de Venta (FEV) y Anexo Técnico 1.0 del Documento Equivalente Electrónico. Obligatoria desde el 1 de mayo de 2024.",
+  "sujetos": "Todos los obligados a facturar electrónicamente: comerciantes, profesionales, prestadores de servicios.",
+  "relevancia": "Norma técnica principal vigente del sistema de FE. El chatbot debe responder sobre versiones de anexos técnicos y plazos de adopción.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000165%20de%2001-11-2023.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0165_2023.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000165%20de%2001-11-2023.pdf"
+  ]
+ },
+ {
+  "codigo": "N16",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000008 de 2024 (FE – modifica Res. 165/2023)",
+  "fecha": "31/01/2024",
+  "categoria": "Facturación Electrónica",
+  "estado": "vigente",
+  "descripcion": "Modifica la Resolución 000165/2023. Ajusta requisitos técnicos y plazos de transición para el sistema de facturación electrónica.",
+  "sujetos": "Mismos sujetos de la Resolución 000165/2023.",
+  "relevancia": "Actualización 2024 del sistema de FE. El chatbot debe tenerla para responder con precisión sobre plazos y requisitos vigentes.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000008%20de%2031-01-2024.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0008_2024.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000008%20de%2031-01-2024.pdf"
+  ]
+ },
+ {
+  "codigo": "N17",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000202 de 2025 (FE – última modificación)",
+  "fecha": "31/03/2025",
+  "categoria": "Facturación Electrónica",
+  "estado": "vigente",
+  "descripcion": "Modifica parcialmente la Resolución 000165/2023. Última actualización al sistema de facturación electrónica vigente al corte del proyecto.",
+  "sujetos": "Obligados a facturar electrónicamente.",
+  "relevancia": "Norma más reciente sobre FE. Debe incluirse en el corpus del chatbot para preguntas sobre ajustes técnicos 2025.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000202%20de%2031-03-2025.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0202_2025.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000202%20de%2031-03-2025.pdf"
+  ]
+ },
+ {
+  "codigo": "N18",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000013 de 2021 (Nómina Electrónica – DSPNE)",
+  "fecha": "11/02/2021",
+  "categoria": "Nómina Electrónica",
+  "estado": "vigente",
+  "descripcion": "Implementa el Documento Soporte de Pago de Nómina Electrónica (DSPNE) dentro del sistema de facturación. Establece estructura, contenido y plazos para empleadores no obligados a facturar.",
+  "sujetos": "Empleadores (personas naturales y jurídicas) que realizan pagos de nómina y no son obligados a facturar electrónicamente.",
+  "relevancia": "Consulta frecuente de pequeños empresarios con empleados. El chatbot debe orientar sobre quiénes deben generar el DSPNE y cómo se integra al sistema tributario.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000013%20de%2011-02-2021.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0013_2021.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000013%20de%2011-02-2021.pdf"
+  ]
+ },
+ {
+  "codigo": "N19",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 631 ET (Obligados a reportar información)",
+  "fecha": "Permanente",
+  "categoria": "Información Exógena",
+  "estado": "vigente",
+  "descripcion": "Facultad a la DIAN para solicitar información a contribuyentes, responsables, agentes retenedores y terceros. Base legal de las resoluciones de información exógena. Define quiénes pueden ser requeridos a informar.",
+  "sujetos": "Personas naturales y jurídicas, entidades públicas y privadas, señaladas por la DIAN mediante resolución anual.",
+  "relevancia": "Base legal fundamental de la información exógena. El chatbot debe citarlo para responder sobre la obligación de reportar a la DIAN y quiénes están sujetos a ella.",
+  "url": "https://estatuto.co/631",
+  "ingest_urls": [
+   "https://estatuto.co/631"
+  ]
+ },
+ {
+  "codigo": "N20",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 651 ET (Sanción por no enviar información)",
+  "fecha": "Permanente (mod. Ley 2277/2022)",
+  "categoria": "Información Exógena",
+  "estado": "vigente",
+  "descripcion": "Establece la sanción por no enviar información tributaria, por enviarla fuera de plazo, con errores o en formato incorrecto. La sanción puede ser hasta el 5% del valor de la información no reportada o el 0.5% de los ingresos netos del contribuyente.",
+  "sujetos": "Obligados a reportar información exógena que incumplan con los formatos, plazos o contenidos establecidos por la DIAN.",
+  "relevancia": "El chatbot debe advertir sobre estas sanciones al responder consultas sobre información exógena. Alta relevancia práctica para PYME.",
+  "url": "https://estatuto.co/651",
+  "ingest_urls": [
+   "https://estatuto.co/651"
+  ]
+ },
+ {
+  "codigo": "N21",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000162 de 2023 (Información exógena AG 2023)",
+  "fecha": "31/10/2023",
+  "categoria": "Información Exógena",
+  "estado": "aplica al año gravable 2023",
+  "descripcion": "Establece el grupo de obligados a suministrar información tributaria a la DIAN por el año gravable 2023. Define formatos, plazos y contenidos específicos.",
+  "sujetos": "Contribuyentes con ingresos o patrimonio que superen los topes establecidos; entidades públicas y privadas según listado DIAN.",
+  "relevancia": "El chatbot debe responder quiénes están obligados a reportar información exógena AG 2023 y cuáles son los formatos requeridos.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000162%20de%2031-10-2023.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0162_2023.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000162%20de%2031-10-2023.pdf"
+  ]
+ },
+ {
+  "codigo": "N22",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000188 de 2024 (Información exógena AG 2024)",
+  "fecha": "30/10/2024",
+  "categoria": "Información Exógena",
+  "estado": "aplica al año gravable 2024",
+  "descripcion": "Modifica y adiciona la Resolución 000162/2023 para el reporte de información exógena del año gravable 2024. Actualiza topes, formatos y plazos.",
+  "sujetos": "Mismos sujetos de Resolución 000162/2023 con actualización de topes 2024.",
+  "relevancia": "Fuente actualizada para responder sobre información exógena 2024. El chatbot debe diferenciar entre la norma de 2023 y la de 2024.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000188%20de%2030-10-2024.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0188_2024.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000188%20de%2030-10-2024.pdf"
+  ]
+ },
+ {
+  "codigo": "N23",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 240 ET (Tarifa renta – personas jurídicas)",
+  "fecha": "Permanente (mod. Ley 2277/2022)",
+  "categoria": "Impuesto de Renta",
+  "estado": "vigente",
+  "descripcion": "Establece la tarifa general del impuesto de renta para sociedades nacionales y extranjeras: 35% general. Establece sobretasa del 5% para el sector financiero (tarifa efectiva 40%). También regula tarifas especiales para ZEF, ZomacS y empresas industriales del Estado.",
+  "sujetos": "Personas jurídicas (sociedades nacionales, extranjeras, entidades asimiladas) declarantes del impuesto de renta.",
+  "relevancia": "Alta frecuencia de consulta. El chatbot debe responder claramente sobre la tarifa corporativa del 35%, la sobretasa financiera y las excepciones por tipo de entidad.",
+  "url": "https://estatuto.co/240",
+  "ingest_urls": [
+   "https://estatuto.co/240"
+  ]
+ },
+ {
+  "codigo": "N24",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 592 ET (No obligados a declarar renta)",
+  "fecha": "Permanente",
+  "categoria": "Impuesto de Renta",
+  "estado": "vigente",
+  "descripcion": "Define las personas naturales no obligadas a presentar declaración de renta: asalariados con ingresos inferiores a 1.400 UVT ($69.718.600 con la UVT 2025 de $49.799; $73.323.600 con la UVT 2026 de $52.374), sin retención superiores a 800 UVT, sin patrimonio superior a 4.500 UVT, entre otros requisitos acumulativos.",
+  "sujetos": "Personas naturales residentes en Colombia que cumplan todos los requisitos del artículo (ingresos, patrimonio, compras, consumos y retenciones dentro de los topes).",
+  "relevancia": "Una de las consultas más frecuentes del Consultorio Empresarial. El chatbot debe guiar paso a paso sobre si una persona natural debe o no declarar renta.",
+  "url": "https://estatuto.co/592",
+  "ingest_urls": [
+   "https://estatuto.co/592"
+  ]
+ },
+ {
+  "codigo": "N25",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 594-3 ET (Condiciones para ser no declarante)",
+  "fecha": "Permanente",
+  "categoria": "Impuesto de Renta",
+  "estado": "vigente",
+  "descripcion": "Complementa el Art. 592 ET. Establece condiciones adicionales para que los asalariados y trabajadores independientes sean considerados no declarantes de renta: límites de consignaciones bancarias (1.400 UVT), compras o consumos (1.400 UVT) y movimientos de inversiones.",
+  "sujetos": "Personas naturales asalariadas y trabajadores independientes que pretendan acogerse a la condición de no declarantes.",
+  "relevancia": "Complementa la orientación del Art. 592. El chatbot debe usarlos juntos para responder la pregunta '¿Debo declarar renta?', muy frecuente entre usuarios del Consultorio.",
+  "url": "https://estatuto.co/594-3",
+  "ingest_urls": [
+   "https://estatuto.co/594-3"
+  ]
+ },
+ {
+  "codigo": "N26",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000193 de 2024 (Formulario 210 – renta PN AG 2023)",
+  "fecha": "21/03/2024",
+  "categoria": "Impuesto de Renta",
+  "estado": "vigente",
+  "descripcion": "Prescribe el formulario 210 para la declaración del impuesto sobre la renta y complementario de personas naturales y sucesiones ilíquidas residentes por el año gravable 2023 (presentado en 2024).",
+  "sujetos": "Personas naturales residentes y sucesiones ilíquidas obligadas a declarar renta por el año gravable 2023.",
+  "relevancia": "El chatbot debe orientar sobre qué formulario usar para declarar renta como persona natural. La Res. 000193/2024 es la norma de referencia para el AG 2023.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000193%20de%2021-03-2024.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0193_2024.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000193%20de%2021-03-2024.pdf"
+  ],
+  "nota": "Por verificar: fuentes secundarias (siemprealdia.co) indican que el formulario 210 vigente fue prescrito por la Resolución 000044 del 14 de marzo de 2024 \"para el año gravable 2023 y siguientes\", modificada por la Resolución 000120 de 2024 y compilada en la Resolución Única 000227 de 2025."
+ },
+ {
+  "codigo": "N27",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000187 de 2023 (Valor UVT para 2024: $47.065)",
+  "fecha": "24/11/2023",
+  "categoria": "Impuesto de Renta",
+  "estado": "aplica al año 2024",
+  "descripcion": "Fija el valor de la Unidad de Valor Tributario (UVT) para el año gravable 2024 en $47.065. La UVT es el parámetro de medida utilizado para determinar montos de sanciones, obligaciones y beneficios tributarios.",
+  "sujetos": "Todos los contribuyentes y responsables de obligaciones tributarias nacionales para el año gravable 2024.",
+  "relevancia": "El chatbot debe conocer el valor de la UVT vigente para calcular topes de declaración, sanciones y obligaciones. Actualizar anualmente.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000187%20de%2024-11-2023.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0187_2023.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000187%20de%2024-11-2023.pdf"
+  ]
+ },
+ {
+  "codigo": "N28",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000178 de 2024 (Valor UVT para 2025: $49.799)",
+  "fecha": "22/11/2024",
+  "categoria": "Impuesto de Renta",
+  "estado": "aplica al año 2025 (topes del año gravable 2025 declarado en 2026)",
+  "descripcion": "Fija el valor de la Unidad de Valor Tributario (UVT) para el año gravable 2025 en $49.799. Representa un incremento del 5,82% respecto del año anterior, ajustado según el IPC.",
+  "sujetos": "Todos los contribuyentes y responsables de obligaciones tributarias nacionales para el año gravable 2025.",
+  "relevancia": "Valor de UVT 2025 indispensable para el chatbot. Define los topes de declaración de renta (1.400 UVT = $69.718.600), montos de sanciones y límites del RST.",
+  "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000178%20de%2022-11-2024.pdf",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0178_2024.htm",
+   "https://www.dian.gov.co/normatividad/Normatividad/Resolución%20000178%20de%2022-11-2024.pdf"
+  ]
+ },
+ {
+  "codigo": "N29",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Calendario Tributario 2024",
+  "fecha": "Dic. 2023",
+  "categoria": "Impuesto de Renta",
+  "estado": "histórico (vencimientos de 2024)",
+  "descripcion": "Establece plazos para presentación y pago del impuesto de renta AG 2023 (personas naturales y jurídicas), IVA, retención y otros impuestos durante 2024.",
+  "sujetos": "Personas naturales y jurídicas obligadas a declarar renta, IVA, retención y otros impuestos en 2024.",
+  "relevancia": "El chatbot debe orientar sobre plazos de vencimiento según el NIT del contribuyente y el tipo de declaración.",
+  "url": "https://www.dian.gov.co/Calendarios/Calendario_Tributario_2024.pdf",
+  "ingest_urls": [
+   "https://www.dian.gov.co/Calendarios/Calendario_Tributario_2024.pdf"
+  ]
+ },
+ {
+  "codigo": "N30",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Calendario Tributario 2025",
+  "fecha": "Dic. 2024",
+  "categoria": "Impuesto de Renta",
+  "estado": "histórico (vencimientos de 2025)",
+  "descripcion": "Plazos para declaración de renta AG 2024 (agosto-octubre 2025), IVA, retención, SIMPLE y otros impuestos. UVT 2025: $49.799.",
+  "sujetos": "Todos los obligados a declarar y pagar impuestos nacionales en el año 2025.",
+  "relevancia": "Fuente clave para responder preguntas sobre vencimientos fiscales 2025.",
+  "url": "https://www.dian.gov.co/Paginas/CalendarioTributario.aspx",
+  "ingest_urls": [
+   "https://www.dian.gov.co/Paginas/CalendarioTributario.aspx"
+  ]
+ },
+ {
+  "codigo": "N31",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "ET Arts. 420–513 (IVA – actualizado Ley 2277/2022)",
+  "fecha": "Permanente",
+  "categoria": "IVA",
+  "estado": "vigente",
+  "descripcion": "Regula el Impuesto sobre las Ventas (IVA): hecho generador, base gravable, tarifas (0%, 5%, 19%), responsables, régimen ordinario, declaración bimestral/cuatrimestral/anual según ingresos.",
+  "sujetos": "Responsables de IVA: quienes vendan bienes gravados o presten servicios gravados con ingresos superiores a 3.500 UVT anuales.",
+  "relevancia": "Alta frecuencia de consulta. El chatbot debe responder sobre tarifas, qué productos o servicios gravan, y cuándo y cómo declarar.",
+  "url": "https://estatuto.co/420",
+  "ingest_urls": [
+   "https://estatuto.co/420"
+  ]
+ },
+ {
+  "codigo": "N32",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "ET Arts. 365–419 (Retención en la Fuente)",
+  "fecha": "Permanente",
+  "categoria": "Retención en la Fuente",
+  "estado": "vigente",
+  "descripcion": "Regula el mecanismo de recaudo anticipado del impuesto de renta: obligados a actuar como agentes retenedores, bases, tarifas según tipo de pago (salarios, honorarios, compras, servicios), plazos de consignación.",
+  "sujetos": "Personas jurídicas, personas naturales categoría agente retenedor (ingresos > 30.000 UVT o gran contribuyente).",
+  "relevancia": "Preguntas frecuentes sobre qué tarifa aplicar en pagos a proveedores, empleados o profesionales.",
+  "url": "https://estatuto.co/365",
+  "ingest_urls": [
+   "https://estatuto.co/365"
+  ]
+ },
+ {
+  "codigo": "N33",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "ET Arts. 903–916 (Régimen Simple de Tributación)",
+  "fecha": "Permanente (Ley 2010/2019, mod. Ley 2277/2022)",
+  "categoria": "Régimen Simple (RST)",
+  "estado": "vigente",
+  "descripcion": "Régimen alternativo y voluntario para PN y PJ con ingresos < 100.000 UVT. Unifica renta, ICA, INC y sobretasa bomberil. Tarifas entre 1,2% y 14,5% según actividad e ingresos. Pagos bimestrales anticipados. No sujeto a retención en la fuente.",
+  "sujetos": "Personas naturales y jurídicas (socios persona natural) con ingresos < 100.000 UVT. Actividades permitidas según ET.",
+  "relevancia": "Alta relevancia para PYME y emprendedores del Consultorio. El chatbot debe explicar beneficios, requisitos, tarifas y proceso de inscripción.",
+  "url": "https://micrositios.dian.gov.co/regimen-simple-tributacion/",
+  "ingest_urls": [
+   "https://micrositios.dian.gov.co/regimen-simple-tributacion/"
+  ]
+ },
+ {
+  "codigo": "N34",
+  "tipo": "Estatuto Tributario",
+  "identificacion": "Artículo 632 ET (Conservación de documentos)",
+  "fecha": "Permanente",
+  "categoria": "Obligaciones Formales",
+  "estado": "vigente",
+  "descripcion": "Obliga a los contribuyentes a conservar sus libros de contabilidad, comprobantes de contabilidad, facturas y demás documentos que sirvan de soporte a las declaraciones tributarias, durante un término mínimo de 5 años. Aplica también en medios electrónicos.",
+  "sujetos": "Todos los contribuyentes declarantes del impuesto de renta y responsables de IVA que lleven contabilidad.",
+  "relevancia": "El chatbot debe orientar sobre cuánto tiempo guardar facturas, contratos y soportes contables. Consulta frecuente de pequeños empresarios.",
+  "url": "https://estatuto.co/632",
+  "ingest_urls": [
+   "https://estatuto.co/632"
+  ]
+ },
+ {
+  "codigo": "N35",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000227 de 2025 (Resolución Única en materia tributaria, aduanera y cambiaria)",
+  "fecha": "23/09/2025",
+  "categoria": "Marco Normativo General",
+  "estado": "vigente",
+  "descripcion": "Resolución Única de la DIAN. Compila, aclara y consolida en un solo acto las resoluciones vigentes de la DIAN. Por ahora expide la Parte 1 (Tributaria): RUT, autorretenedores, grandes contribuyentes, CIIU Rev. 4 A.C. 2020, liquidación y declaración de impuestos, información exógena, otros reportes, sistema de facturación, aspectos internacionales, procedimiento, recaudo y devoluciones. Las Partes 2 (Aduanera) y 3 (Cambiaria) se incorporarán después. Desde el 1 de enero de 2026 rigen sus reglas de cancelación de oficio del RUT por inactividad tributaria. Los anexos de las resoluciones compiladas siguen vigentes.",
+  "sujetos": "Todos los inscritos en el RUT y obligados a cumplir obligaciones formales ante la DIAN.",
+  "relevancia": "Fuente principal para consultar resoluciones DIAN vigentes desde 2025 (facturación, exógena, RUT, formularios). El chatbot debe preferirla sobre las resoluciones individuales ya compiladas.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0227_2025.htm",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0227_2025.htm"
+  ]
+ },
+ {
+  "codigo": "N36",
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000233 de 2025 (modifica la Resolución Única 000227/2025 en información exógena)",
+  "fecha": "30/10/2025",
+  "categoria": "Información Exógena",
+  "estado": "vigente",
+  "descripcion": "Modifica y adiciona la Resolución 000227 de 2025 en el reporte de información exógena. Nuevos obligados: UPME, APC-Colombia y proveedores de servicios de activos digitales con ingresos brutos superiores a 1.400 UVT. Nuevos conceptos en el Formato 1001 versión 11, concepto 5103 para partícipes de contratos de colaboración empresarial y nuevos formatos 2820 a 2829. Excluye a las propiedades horizontales del reporte de ciertos ingresos.",
+  "sujetos": "Obligados a reportar información exógena (art. 1.3.1.1 de la Res. 000227/2025) y los nuevos sujetos señalados.",
+  "relevancia": "Norma vigente de exógena para el año gravable 2025 en adelante. El chatbot debe usarla junto con el art. 631 ET.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0233_2025.htm",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0233_2025.htm"
+  ]
+ },
+ {
+  "codigo": "N37",
+  "tipo": "Ley",
+  "identificacion": "Ley 1581 de 2012 (Protección de Datos Personales)",
+  "fecha": "17/10/2012",
+  "categoria": "Protección de Datos / IA",
+  "estado": "vigente",
+  "descripcion": "Disposiciones generales para la protección de datos personales en Colombia. Principios de legalidad, finalidad, libertad, veracidad, transparencia, seguridad y confidencialidad.",
+  "sujetos": "Toda entidad pública o privada que recopile, almacene o procese datos personales de ciudadanos colombianos.",
+  "relevancia": "El chatbot NOVA debe cumplir con esta ley en el manejo de datos de los usuarios. Marco ético-legal del sistema.",
+  "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/ley_1581_2012.htm",
+   "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981"
+  ]
+ },
+ {
+  "codigo": "N38",
+  "tipo": "Circular Externa",
+  "identificacion": "Circular Externa No. 2 de 2024 – SIC (Lineamientos IA)",
+  "fecha": "2024",
+  "categoria": "Protección de Datos / IA",
+  "estado": "vigente",
+  "descripcion": "Superintendencia de Industria y Comercio. Lineamientos para el uso de IA: transparencia algorítmica, explicabilidad, no discriminación y protección de datos en sistemas inteligentes.",
+  "sujetos": "Entidades que implementen sistemas de inteligencia artificial que traten datos personales de ciudadanos colombianos.",
+  "relevancia": "Variable legal crítica del chatbot. El diseño de NOVA debe garantizar transparencia, evitar sesgos y proteger datos de usuarios.",
+  "url": "https://www.sic.gov.co/",
+  "ingest_urls": []
+ },
+ {
+  "codigo": "N39",
+  "estado": "vigente",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0238_2025.htm"
+  ],
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000238 de 2025 (Valor UVT para 2026: $52.374)",
+  "fecha": "15/12/2025",
+  "categoria": "Impuesto de Renta",
+  "descripcion": "Fija el valor de la Unidad de Valor Tributario (UVT) para el año 2026 en $52.374, con base en la variación del IPC de ingresos medios certificada por el DANE (5,17%). Historial: UVT 2024 = $47.065; UVT 2025 = $49.799; UVT 2026 = $52.374. Topes de referencia con UVT 2026: 1.400 UVT = $73.323.600; 3.500 UVT = $183.309.000; 4.500 UVT = $235.683.000.",
+  "sujetos": "Todos los contribuyentes y responsables de obligaciones tributarias nacionales.",
+  "relevancia": "UVT vigente en 2026. Las declaraciones de renta del año gravable 2025 (presentadas en 2026) usan la UVT 2025 ($49.799) para los topes.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0238_2025.htm"
+ },
+ {
+  "codigo": "N40",
+  "estado": "vigente",
+  "ingest_urls": [
+   "https://www.dian.gov.co/Paginas/CalendarioTributario.aspx"
+  ],
+  "tipo": "Decreto",
+  "identificacion": "Calendario Tributario 2026 (Decreto 1625 de 2016, modificado por el Decreto 2229 de 2023)",
+  "fecha": "Dic. 2025",
+  "categoria": "Impuesto de Renta",
+  "descripcion": "Plazos para declarar y pagar en 2026 (año gravable 2025). Los vencimientos se fijan en días hábiles según el Decreto 2229 de 2023. Renta grandes contribuyentes: tres cuotas en febrero, abril y junio de 2026. Renta personas jurídicas: dos cuotas en mayo y julio de 2026. Renta personas naturales y sucesiones ilíquidas: del 12 de agosto al 26 de octubre de 2026 según los dos últimos dígitos del NIT. Presencia Económica Significativa: declaración anual a más tardar el 22 de abril de 2026. IVA bimestral para responsables con ingresos iguales o superiores a 92.000 UVT y cuatrimestral para los demás. Régimen Tributario Especial: actualización a más tardar el 30 de junio de 2026. El 17 de abril de 2026 se declaró día cívico (Decreto 500 de 2024) y la DIAN corrió los vencimientos de ese día (Comunicado 031 de 2026). Para personas naturales, en el año gravable 2025 deben declarar quienes tuvieron patrimonio bruto superior a 4.500 UVT ($224.095.500), o ingresos, consumos con tarjeta de crédito, compras y consumos, o consignaciones e inversiones iguales o superiores a 1.400 UVT ($69.718.600), o eran responsables de IVA al 31/12/2025.",
+  "sujetos": "Todos los obligados a declarar y pagar impuestos nacionales en 2026.",
+  "relevancia": "Fuente clave para responder sobre vencimientos 2026. Las fechas exactas por dígito de NIT deben confirmarse en el calendario oficial de la DIAN.",
+  "url": "https://www.dian.gov.co/Paginas/CalendarioTributario.aspx"
+ },
+ {
+  "codigo": "N41",
+  "estado": "no vigente (sin efectos: la Corte Constitucional declaró inexequible el Decreto 1390 de 2025)",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1474_2025.htm"
+  ],
+  "tipo": "Decreto Legislativo",
+  "identificacion": "Decreto 1474 de 2025 (medidas tributarias de la emergencia económica de diciembre de 2025)",
+  "fecha": "29/12/2025",
+  "categoria": "Marco Normativo General",
+  "descripcion": "Expedido bajo la emergencia económica del Decreto 1390 del 22 de diciembre de 2025 para financiar el Presupuesto 2026 tras el hundimiento de la ley de financiamiento. Proponía: impuesto de normalización del 19%, sobretasa de renta para el sector financiero hasta 50%, IVA del 19% en apuestas en línea, cambios al impuesto al consumo de licores, vapeadores y vehículos, impuesto temporal del 1% a ventas de petróleo y carbón, y límite de US$50 para la exclusión de IVA en envíos postales. La Corte Constitucional suspendió provisionalmente el Decreto 1390 el 29 de enero de 2026 (Auto 082 de 2026) y lo declaró inexequible el 9 de abril de 2026, por lo que estas medidas quedaron sin efectos.",
+  "sujetos": "Contribuyentes que habrían estado sujetos a las medidas.",
+  "relevancia": "El chatbot debe aclarar que estas medidas NO están vigentes si un usuario pregunta por ellas.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1474_2025.htm"
+ },
+ {
+  "codigo": "N42",
+  "estado": "vigente (sujeto a decisiones de la Corte Constitucional)",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0173_2026.htm"
+  ],
+  "tipo": "Decreto Legislativo",
+  "identificacion": "Decreto 173 de 2026 (impuesto al patrimonio de personas jurídicas 2026)",
+  "fecha": "24/02/2026",
+  "categoria": "Impuesto de Renta",
+  "descripcion": "Expedido bajo la emergencia económica por la ola invernal (Decreto Legislativo 150 de 2026). Adiciona el parágrafo 6 al artículo 292-3 del ET y crea, por un único año, el impuesto al patrimonio para personas jurídicas, sociedades de hecho declarantes de renta y establecimientos permanentes de entidades del exterior con patrimonio líquido igual o superior a 200.000 UVT. Tarifa: 0,5% general y 1,6% para el sector financiero y actividades extractivas (minería e hidrocarburos). Excluye entidades del sector salud, entidades intervenidas y empresas de servicios públicos en municipios en calamidad de la zona de emergencia. El Decreto 240 de 2026 fijó la declaración al 30 de abril de 2026 con pago del 50% y el resto el 1 de junio de 2026; el impuesto no es deducible ni descontable en renta. La Corte Constitucional declaró la constitucionalidad condicionada del Decreto 150 (comunicado del 24 de junio de 2026). Se reportó una suspensión provisional del cobro para entidades sin ánimo de lucro y entidades en liquidación.",
+  "sujetos": "Personas jurídicas y establecimientos permanentes con patrimonio líquido igual o superior a 200.000 UVT.",
+  "relevancia": "Consulta probable de empresas grandes en 2026. El chatbot debe advertir que su aplicación a ESAL está en discusión ante la Corte.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0173_2026.htm"
+ },
+ {
+  "codigo": "N43",
+  "estado": "vigente hasta el 31/12/2026 (varios plazos ya vencieron)",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0240_2026.htm"
+  ],
+  "tipo": "Decreto Legislativo",
+  "identificacion": "Decreto 240 de 2026 (medidas tributarias adicionales de la emergencia por ola invernal)",
+  "fecha": "12/03/2026",
+  "categoria": "Obligaciones Formales",
+  "descripcion": "Medidas tributarias adicionales bajo la emergencia del Decreto 150 de 2026: impuesto al consumo del 16% sobre depósitos en juegos de suerte y azar operados por internet; alivios de sanciones e intereses de mora para obligaciones pendientes, corrección de declaraciones y subsanación de obligaciones formales (plazo 30 de abril de 2026) y conciliación de litigios (30 de junio de 2026); impuesto complementario de normalización tributaria del 19% sobre activos omitidos o pasivos inexistentes al 1 de abril de 2026 (declaración hasta el 31 de julio de 2026); ajustes al impuesto al patrimonio del Decreto 173 de 2026.",
+  "sujetos": "Operadores de juegos en línea, contribuyentes con obligaciones pendientes y con activos omitidos.",
+  "relevancia": "Explica los alivios y el impuesto de normalización 2026. El chatbot debe indicar que los plazos de los alivios ya vencieron.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0240_2026.htm"
+ },
+ {
+  "codigo": "N44",
+  "estado": "vigente (plazo vencido el 30/04/2026)",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0011_2026.htm"
+  ],
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000011 de 2026 (regularización voluntaria de facturación electrónica)",
+  "fecha": "23/04/2026",
+  "categoria": "Facturación Electrónica",
+  "descripcion": "Adiciona a la Resolución Única 000227 de 2025 la \"contingencia especial de regularización voluntaria\" del artículo 5 del Decreto 240 de 2026. Permite transmitir facturas electrónicas de operaciones no facturadas o facturadas sin requisitos, anteriores al Decreto 240, como documentos de transcripción tipo 03 con el código 20-REG en el campo CustomizationID, a más tardar el 30 de abril de 2026. Cumple la obligación formal de facturar pero no exime de declarar y pagar los impuestos.",
+  "sujetos": "Obligados a facturar electrónicamente que incumplieron la obligación.",
+  "relevancia": "Responde preguntas sobre regularización de facturación omitida en 2026.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0011_2026.htm"
+ },
+ {
+  "codigo": "N45",
+  "estado": "vigente",
+  "ingest_urls": [
+   "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0021_2026.htm"
+  ],
+  "tipo": "Resolución DIAN",
+  "identificacion": "Resolución 000021 de 2026 (ajustes a la exógena del año gravable 2025)",
+  "fecha": "17/07/2026",
+  "categoria": "Información Exógena",
+  "descripcion": "Ajusta los formatos 2839 y 2840 versión 1 (llaves únicas y validaciones) y amplía plazos de la información exógena del año gravable 2025: formatos 2839, 2840, 2820 (demás obligados), 2823 a 2829, 2833, 2834 y 2835 hasta el 31 de agosto de 2026; formato 2820 presentado sin firma electrónica o no presentado por contingencias de la DIAN hasta el 31 de julio de 2026.",
+  "sujetos": "Obligados a reportar información exógena del año gravable 2025.",
+  "relevancia": "Actualización 2026 de la información exógena.",
+  "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0021_2026.htm"
+ }
+]
