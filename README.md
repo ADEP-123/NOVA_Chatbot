@@ -11,6 +11,7 @@ Consultorio Empresarial UDES | Proyecto PROP-DET07-26
 | `mysql` | Base de datos (usuarios, sesiones, chats, corpus) |
 | `api` | Node + Express. Expone `/api/*` |
 | `web` | React compilado y servido por nginx; nginx también reenvía `/api` a la API |
+| `ollama` | Modelo de IA local (opcional, perfil `ollama`) |
 | `mailpit` | Buzón falso para desarrollo: ves los correos de verificación en http://localhost:8025 |
 
 ```
@@ -27,17 +28,20 @@ nova/
 
 - Docker Desktop (en Windows con WSL2 activado) o Docker Engine en Linux.
 - Git.
-- Node 22.
+- Node 22 solo si vas a desarrollar fuera de Docker.
 
 ## Arrancar con Docker
 
 ```bash
 cp .env.example .env      # en Windows PowerShell: copy .env.example .env
-# editar .env y cambiar las contraseñas
-docker compose up -d --build
+# edita .env y cambia las contraseñas
+docker compose up -d --build                                              # sin GPU
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d --build   # con GPU NVIDIA
 ```
 
-Abrir http://localhost:8080.
+La primera vez, `ollama-pull` descarga los modelos (unos 3 GB). Para ver el avance: `docker compose logs -f ollama-pull`.
+
+Abre http://localhost:8080.
 
 Comandos útiles:
 
@@ -52,7 +56,7 @@ docker compose down -v            # apagar y BORRAR la base de datos
 
 ```bash
 docker compose up -d mysql        # solo la base de datos
-# en .env deja DB_HOST=localhost y publicar el puerto agregando en docker-compose.yml, servicio mysql:
+# en .env deja DB_HOST=localhost y publica el puerto agregando en docker-compose.yml, servicio mysql:
 #   ports: ["3306:3306"]
 cd api && npm install && npm run dev      # API en :3000 con recarga automática
 cd web && npm install && npm run dev      # Web en :5173, reenvía /api a :3000
@@ -86,3 +90,54 @@ cd api && npm test
 ```
 
 Ajusta usuario y contraseña en `api/test/.env.test` si no son `nova`/`nova`.
+
+## Modelo de IA
+
+NOVA usa dos modelos:
+
+- **Chat** (`LLM_*`): redacta la respuesta.
+- **Embeddings** (`EMBED_*`): convierte textos en vectores para encontrar los fragmentos de norma relevantes.
+
+Toda la plataforma los usa a través de `api/src/llm.js` (funciones `chat()` y `embed()`), así que **cambiar de modelo no requiere tocar código**: solo el `.env`. El proveedor `openai` sirve para cualquier API compatible con OpenAI, y casi todos los servicios la ofrecen.
+
+### Local con Ollama (por defecto, gratis)
+
+| Equipo | Modelo de chat sugerido |
+|---|---|
+| GPU de 4 GB (p. ej. GTX 1650 Ti) | `qwen2.5:3b` (por defecto) o `llama3.2:3b` |
+| Solo CPU | `qwen2.5:1.5b` (más rápido, menos preciso) |
+| GPU de 12–16 GB | `qwen2.5:14b` |
+| GPU de 24 GB o más | `qwen2.5:32b` |
+
+Para cambiarlo, edita `OLLAMA_PULL_MODELS` y `LLM_MODEL` y ejecuta `docker compose up -d`.
+
+**Windows con GPU:** hay dos caminos.
+
+- **A. Ollama dentro de Docker.** Requiere Docker Desktop con WSL2 y el driver NVIDIA actualizado. Usa el comando con `docker-compose.gpu.yml`.
+- **B. Ollama instalado en Windows** (https://ollama.com/download). Suele aprovechar mejor una GPU pequeña. En el `.env` deja `COMPOSE_PROFILES=` vacío, usa `LLM_BASE_URL=http://host.docker.internal:11434/v1` y `EMBED_BASE_URL=http://host.docker.internal:11434/v1`, y descarga los modelos con `ollama pull qwen2.5:3b` y `ollama pull bge-m3`.
+
+Varios usuarios a la vez: Ollama atiende las peticiones en cola. En un servidor con más memoria puedes subir `OLLAMA_NUM_PARALLEL` (agrégalo en `environment` del servicio `ollama`) para atender varias respuestas en paralelo.
+
+### Cambiar a un servicio de pago
+
+1. En `.env` cambia solo las variables `LLM_*`. Ejemplos:
+
+| Proveedor | `LLM_BASE_URL` | `LLM_MODEL` (ejemplo) |
+|---|---|---|
+| OpenAI | `https://api.openai.com/v1` | `gpt-4o-mini` |
+| Anthropic (Claude) | `https://api.anthropic.com/v1` | `claude-haiku-5-5` |
+| Google Gemini | `https://generativelanguage.googleapis.com/v1beta/openai` | `gemini-2.0-flash` |
+| Groq | `https://api.groq.com/openai/v1` | `llama-3.3-70b-versatile` |
+| DeepSeek | `https://api.deepseek.com/v1` | `deepseek-chat` |
+
+   Pon la clave en `LLM_API_KEY`. Los nombres de modelo cambian con el tiempo: confírmalos en la documentación del proveedor.
+
+2. Embeddings: puedes seguir usando `bge-m3` en Ollama (gratis) o pasarlos a un servicio de pago (p. ej. OpenAI con `EMBED_MODEL=text-embedding-3-small`). **Si cambias el modelo de embeddings, reindexa el corpus** desde el panel admin.
+3. Si ya no usas Ollama, deja `COMPOSE_PROFILES=` vacío.
+4. `docker compose up -d` para aplicar los cambios.
+
+Si en el futuro un proveedor no es compatible con OpenAI, se agrega un nuevo `provider` en `createProvider()` de `api/src/llm.js` con las mismas dos funciones.
+
+> Protección de datos: con un servicio de pago, las preguntas de los usuarios se envían a ese proveedor (transferencia internacional de datos, Ley 1581). Actualiza la política de privacidad antes de activarlo.
+
+Para desarrollar sin modelo, usa `LLM_PROVIDER=fake` y `EMBED_PROVIDER=fake`: el chat responde un texto de prueba y busca en el corpus por palabras.
