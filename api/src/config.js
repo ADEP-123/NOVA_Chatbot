@@ -28,4 +28,22 @@ export const config = {
     email: env.ADMIN_EMAIL,
     password: env.ADMIN_PASSWORD,
   },
+  // Modelo que redacta las respuestas.
+  llm: {
+    provider: env.LLM_PROVIDER || 'openai',
+    baseUrl: (env.LLM_BASE_URL || 'http://ollama:11434/v1').replace(/\/$/, ''),
+    apiKey: env.LLM_API_KEY,
+    model: env.LLM_MODEL || 'qwen2.5:3b',
+    temperature: Number(env.LLM_TEMPERATURE ?? 0.2),
+    maxTokens: Number(env.LLM_MAX_TOKENS || 1024),
+  },
+  // Modelo que convierte texto en vectores para buscar en el corpus.
+  // Va aparte para poder usar un chat de pago con embeddings locales.
+  // Si cambias el modelo de embeddings hay que reindexar el corpus.
+  embed: {
+    provider: env.EMBED_PROVIDER || env.LLM_PROVIDER || 'openai',
+    baseUrl: (env.EMBED_BASE_URL || 'http://ollama:11434/v1').replace(/\/$/, ''),
+    apiKey: env.EMBED_API_KEY,
+    model: env.EMBED_MODEL || 'bge-m3',
+  },
 };
