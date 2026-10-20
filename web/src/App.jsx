@@ -3,15 +3,7 @@ import { AuthProvider } from './auth.jsx';
 import Layout from './components/Layout.jsx';
 import { Forgot, Login, Register, Reset, Verify } from './pages/AuthPages.jsx';
 import Privacy from './pages/Privacy.jsx';
-
-function Home() {
-  return (
-    <section className="welcome">
-      <h1>Hola, soy NOVA</h1>
-      <p>Resuelvo preguntas sobre la normativa tributaria vigente en Colombia, citando la norma de donde sale cada respuesta.</p>
-    </section>
-  );
-}
+import Chat from './pages/Chat.jsx';
 
 export default function App() {
   return (
@@ -19,7 +11,7 @@ export default function App() {
       <AuthProvider>
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Chat />} />
             <Route path="/login" element={<Login />} />
             <Route path="/registro" element={<Register />} />
             <Route path="/verificar" element={<Verify />} />
