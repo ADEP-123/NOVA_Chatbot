@@ -1,3 +1,8 @@
 {
-  "conventionalCommits.scopes": ["base-docker", "auth-sessions", "proveedor-IA"]
+  "conventionalCommits.scopes": [
+    "base-docker",
+    "auth-sessions",
+    "proveedor-IA",
+    "Corpus"
+  ]
 }
