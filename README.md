@@ -182,3 +182,10 @@ La primera vez tarda (el Estatuto Tributario y el DUR 1625 son documentos grande
 - **Normas nuevas:** UVT 2026 ($52.374, Res. 000238 de 2025), calendario tributario 2026, Decreto 1474 de 2025 (**no vigente**), decretos legislativos 173 y 240 de 2026 (impuesto al patrimonio de personas jurídicas, normalización y alivios), Res. 000011 de 2026 (regularización de facturación) y Res. 000021 de 2026 (exógena AG 2025).
 - **Estado de cada norma:** cada una tiene un campo `estado` (vigente, derogada, histórica, no vigente) para que NOVA no presente como vigente algo que ya no lo está.
 - **Por verificar:** el formulario 210 (N26) podría haber sido prescrito por la Res. 000044 de 2024 y no por la 000193. Está anotado en la ficha.
+
+## Chat
+
+- `POST /api/chat` recibe `{ message, conversationId? }` (o `{ message, history }` si es anónimo) y responde en **streaming** (Server-Sent Events) con los eventos `meta` (fuentes y conversación), `token` (texto), `done` (tokens usados) y `error`.
+- **Registrados:** cada consulta se guarda en `conversations` y `messages`; el historial aparece en la barra lateral y se puede borrar.
+- **Anónimos:** el historial solo vive en la pestaña del navegador y se pierde al recargar. El servidor no lo guarda.
+- El modelo recibe las instrucciones de formato (**Respuesta / Fuente**), dos ejemplos de la plantilla, los últimos 6 mensajes y los fragmentos encontrados en el corpus. Las instrucciones están en `api/src/chat/prompt.js`.

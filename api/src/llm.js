@@ -104,7 +104,7 @@ function hashEmbed(text, dims = 512) {
 const fakeProvider = {
   model: 'fake',
   async chat(messages, { onToken = () => {} } = {}) {
-    const question = messages.findLast((m) => m.role === 'user')?.content ?? '';
+    const question = (messages.findLast((m) => m.role === 'user')?.content ?? '').split('PREGUNTA: ').at(-1);
     const text = `**Respuesta:** (modo de prueba, sin modelo de IA) Recibí tu pregunta: "${question.slice(0, 200)}".\n\n**Fuente:** ninguna.`;
     for (const piece of text.match(/\S+\s*/g)) onToken(piece);
     return { text, usage: { prompt: estimateTokens(messages.map((m) => m.content).join('\n')), completion: estimateTokens(text) } };

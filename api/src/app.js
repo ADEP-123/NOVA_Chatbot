@@ -5,6 +5,7 @@ import { config } from './config.js';
 import { pool } from './db.js';
 import { loadUser } from './auth/middleware.js';
 import authRoutes from './routes/auth.js';
+import chatRoutes from './routes/chat.js';
 
 const MySQLStore = MySQLStoreFactory(session);
 
@@ -39,6 +40,7 @@ export function createApp() {
     res.json({ ok: true });
   });
   app.use('/api/auth', authRoutes);
+  app.use('/api/chat', chatRoutes);
 
   app.use('/api', (req, res) => res.status(404).json({ error: 'Ruta no encontrada' }));
 
@@ -46,7 +48,8 @@ export function createApp() {
   app.use((err, req, res, next) => {
     const status = err.status || err.statusCode || 500;
     if (status >= 500) console.error(err);
-    res.status(status).json({ error: status >= 500 ? 'Error interno del servidor' : err.message });
+    // Solo los errores con status explícito (validaciones, 503 controlados) muestran su mensaje.
+    res.status(status).json({ error: err.status || err.statusCode ? err.message : 'Error interno del servidor' });
   });
 
   return app;

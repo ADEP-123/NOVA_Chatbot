@@ -3,6 +3,7 @@
     "base-docker",
     "auth-sessions",
     "proveedor-IA",
-    "Corpus"
+    "Corpus",
+    "Chat"
   ]
 }
