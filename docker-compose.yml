@@ -15,6 +15,13 @@ services:
       timeout: 5s
       retries: 30
 
+  # Buzón de correo falso para desarrollo: los correos de NOVA se ven en http://localhost:8025
+  mailpit:
+    image: axllent/mailpit:v1.21
+    restart: unless-stopped
+    ports:
+      - "8025:8025"
+
   api:
     build: ./api
     restart: unless-stopped
@@ -24,6 +31,8 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
+      mailpit:
+        condition: service_started
 
   web:
     build: ./web

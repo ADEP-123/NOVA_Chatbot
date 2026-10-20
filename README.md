@@ -11,6 +11,7 @@ Consultorio Empresarial UDES | Proyecto PROP-DET07-26
 | `mysql` | Base de datos (usuarios, sesiones, chats, corpus) |
 | `api` | Node + Express. Expone `/api/*` |
 | `web` | React compilado y servido por nginx; nginx también reenvía `/api` a la API |
+| `mailpit` | Buzón falso para desarrollo: ves los correos de verificación en http://localhost:8025 |
 
 ```
 nova/
@@ -59,4 +60,29 @@ cd web && npm install && npm run dev      # Web en :5173, reenvía /api a :3000
 
 ## Base de datos
 
-Los cambios de esquema van en `api/src/migrations/NNN_nombre.sql`. Al arrancar, la API aplica en orden los que no se han aplicado y los registra en la tabla `schema_migrations`. Nunca editar una migración ya aplicada; crear una nueva.
+Los cambios de esquema van en `api/src/migrations/NNN_nombre.sql`. Al arrancar, la API aplica en orden los que no se han aplicado y los registra en la tabla `schema_migrations`. Nunca edites una migración ya aplicada; crea una nueva.
+
+## Usuarios y sesiones
+
+| Tipo | Cómo se identifica | Historial |
+|---|---|---|
+| `anon` (no registrado) | Cookie de sesión temporal | No se guarda |
+| `registered` | Correo + contraseña, correo confirmado | Se guarda |
+| `admin` | Igual que registrado, con `role = 'admin'` | Se guarda |
+
+- Las sesiones se guardan en la tabla `sessions` de MySQL (cookie `nova.sid`, `httpOnly`). Así varios usuarios pueden usar NOVA a la vez y las sesiones sobreviven a reinicios de la API.
+- El rol es texto libre en `users.role`, así que puedes crear nuevos tipos de usuario sin cambiar la base de datos.
+- El administrador inicial se crea al arrancar con `ADMIN_EMAIL` y `ADMIN_PASSWORD`.
+- Registro: el usuario acepta la política de datos (Ley 1581), recibe un correo de confirmación (enlace válido 48 h) y solo después puede iniciar sesión. "Recuperar contraseña" envía un enlace válido 1 hora.
+- La política de datos en `/privacidad` es un **borrador**: reemplázala por la oficial de la UDES.
+
+## Pruebas de la API
+
+Usan una base de datos aparte (`nova_test`) que se **borra** en cada corrida. Con MySQL publicado en el puerto 3306:
+
+```bash
+docker compose exec mysql mysql -uroot -p -e "CREATE DATABASE nova_test; GRANT ALL ON nova_test.* TO 'nova'@'%';"
+cd api && npm test
+```
+
+Ajusta usuario y contraseña en `api/test/.env.test` si no son `nova`/`nova`.
