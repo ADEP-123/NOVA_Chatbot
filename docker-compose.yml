@@ -54,6 +54,8 @@ services:
     env_file: .env
     environment:
       DB_HOST: mysql
+    volumes:
+      - uploads:/app/uploads    # PDFs subidos desde el panel admin
     depends_on:
       mysql:
         condition: service_healthy
@@ -71,3 +73,4 @@ services:
 volumes:
   mysql-data:
   ollama-data:
+  uploads:

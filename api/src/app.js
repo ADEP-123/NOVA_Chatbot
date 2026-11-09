@@ -6,6 +6,7 @@ import { pool } from './db.js';
 import { loadUser } from './auth/middleware.js';
 import authRoutes from './routes/auth.js';
 import chatRoutes from './routes/chat.js';
+import adminRoutes from './routes/admin.js';
 
 const MySQLStore = MySQLStoreFactory(session);
 
@@ -41,6 +42,7 @@ export function createApp() {
   });
   app.use('/api/auth', authRoutes);
   app.use('/api/chat', chatRoutes);
+  app.use('/api/admin', adminRoutes);
 
   app.use('/api', (req, res) => res.status(404).json({ error: 'Ruta no encontrada' }));
 

@@ -29,10 +29,11 @@ export function setupServer() {
 export function client(ctx) {
   let cookie = '';
   return async function call(method, path, body) {
+    const isForm = body instanceof FormData;
     const res = await fetch(ctx.base + path, {
       method,
-      headers: { 'content-type': 'application/json', cookie },
-      body: body === undefined ? undefined : JSON.stringify(body),
+      headers: isForm ? { cookie } : { 'content-type': 'application/json', cookie },
+      body: body === undefined || isForm ? body : JSON.stringify(body),
     });
     const set = res.headers.get('set-cookie');
     if (set) cookie = set.split(';')[0];
