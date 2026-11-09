@@ -1,6 +1,8 @@
 import { Router } from 'express';
+import rateLimit from 'express-rate-limit';
 import { pool } from '../db.js';
-import { llm } from '../llm.js';
+import { estimateTokens, llm } from '../llm.js';
+import { addUsage, getQuota } from '../quota.js';
 import { requireUser } from '../auth/middleware.js';
 import { buildMessages } from '../chat/prompt.js';
 import { search } from '../rag/search.js';
@@ -29,10 +31,27 @@ async function ownConversation(userId, id) {
   return conv;
 }
 
+// Protege el modelo de ráfagas de peticiones desde una misma IP.
+const chatLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  limit: Number(process.env.CHAT_RATE_LIMIT || 20),
+  standardHeaders: 'draft-7',
+  legacyHeaders: false,
+  message: { error: 'Estás enviando preguntas muy rápido. Espera un momento.' },
+});
+
+const PERIOD_TEXT = { day: 'diario', month: 'mensual' };
+
 // Enviar una pregunta. Responde con Server-Sent Events: meta, token..., done | error.
-router.post('/', async (req, res) => {
+router.post('/', chatLimiter, async (req, res) => {
   const question = typeof req.body.message === 'string' ? req.body.message.trim() : '';
   if (!question || question.length > MAX_QUESTION) throw fail(400, `Escribe una pregunta de hasta ${MAX_QUESTION} caracteres`);
+
+  const quota = await getQuota(req);
+  if (quota.limit && quota.used >= quota.limit) {
+    const extra = req.user ? '' : ' Crea una cuenta para tener un límite mayor.';
+    throw fail(429, `Alcanzaste tu límite ${PERIOD_TEXT[quota.period]} de ${quota.limit.toLocaleString('es-CO')} tokens.${extra}`);
+  }
 
   let conversationId = null;
   let history;
@@ -72,10 +91,11 @@ router.post('/', async (req, res) => {
   res.on('close', () => !res.writableEnded && abort.abort());
 
   send('meta', { conversationId, sources });
+  const messages = buildMessages({ question, history, results });
   let answer = '';
-  let usage = { prompt: 0, completion: 0 };
+  let usage = null;
   try {
-    const out = await llm.chat(buildMessages({ question, history, results }), {
+    const out = await llm.chat(messages, {
       signal: abort.signal,
       onToken: (t) => {
         answer += t;
@@ -89,6 +109,10 @@ router.post('/', async (req, res) => {
       send('error', { error: 'El modelo de IA no está disponible en este momento. Intenta de nuevo en unos minutos.' });
     }
   }
+
+  // Si se cortó (el usuario detuvo o falló el modelo) no hay conteo del proveedor: se estima.
+  usage ??= { prompt: answer ? estimateTokens(messages.map((m) => m.content).join('\n')) : 0, completion: estimateTokens(answer) };
+  if (usage.prompt + usage.completion > 0) await addUsage(req, usage.prompt + usage.completion);
 
   // Se guarda incluso una respuesta cortada por el usuario, para no perder lo que ya vio.
   let messageId = null;
@@ -104,7 +128,7 @@ router.post('/', async (req, res) => {
     await pool.query('DELETE FROM conversations WHERE id = ?', [conversationId]); // no quedan conversaciones vacías
   }
   if (!res.writableEnded) {
-    if (answer) send('done', { messageId, usage });
+    if (answer) send('done', { messageId, usage, quota: await getQuota(req) });
     res.end();
   }
 });

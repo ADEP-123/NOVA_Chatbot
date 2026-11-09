@@ -4,6 +4,7 @@ import { config } from '../config.js';
 import { pool } from '../db.js';
 import { sendMail } from '../mailer.js';
 import { hashPassword, verifyPassword, sha256, randomToken } from '../auth/passwords.js';
+import { getQuota } from '../quota.js';
 
 const router = Router();
 
@@ -70,8 +71,8 @@ function publicUser(u) {
   return u && { id: u.id, email: u.email, name: u.name, role: u.role };
 }
 
-router.get('/me', (req, res) => {
-  res.json({ user: publicUser(req.user), role: req.role });
+router.get('/me', async (req, res) => {
+  res.json({ user: publicUser(req.user), role: req.role, quota: await getQuota(req) });
 });
 
 router.post('/register', limiter, async (req, res) => {

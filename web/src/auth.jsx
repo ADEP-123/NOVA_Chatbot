@@ -4,14 +4,14 @@ import { api } from './api.js';
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
-  const [state, setState] = useState({ user: null, role: 'anon', loading: true });
+  const [state, setState] = useState({ user: null, role: 'anon', quota: null, loading: true });
 
   const refresh = useCallback(async () => {
     try {
       const me = await api('/auth/me');
-      setState({ user: me.user, role: me.role, loading: false });
+      setState({ user: me.user, role: me.role, quota: me.quota, loading: false });
     } catch {
-      setState({ user: null, role: 'anon', loading: false });
+      setState({ user: null, role: 'anon', quota: null, loading: false });
     }
   }, []);
 
@@ -24,7 +24,9 @@ export function AuthProvider({ children }) {
     await refresh();
   }, [refresh]);
 
-  return <AuthContext.Provider value={{ ...state, refresh, logout }}>{children}</AuthContext.Provider>;
+  const setQuota = useCallback((quota) => setState((s) => ({ ...s, quota })), []);
+
+  return <AuthContext.Provider value={{ ...state, refresh, logout, setQuota }}>{children}</AuthContext.Provider>;
 }
 
 export const useAuth = () => useContext(AuthContext);
