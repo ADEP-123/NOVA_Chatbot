@@ -189,3 +189,21 @@ La primera vez tarda (el Estatuto Tributario y el DUR 1625 son documentos grande
 - **Registrados:** cada consulta se guarda en `conversations` y `messages`; el historial aparece en la barra lateral y se puede borrar.
 - **Anónimos:** el historial solo vive en la pestaña del navegador y se pierde al recargar. El servidor no lo guarda.
 - El modelo recibe las instrucciones de formato (**Respuesta / Fuente**), dos ejemplos de la plantilla, los últimos 6 mensajes y los fragmentos encontrados en el corpus. Las instrucciones están en `api/src/chat/prompt.js`.
+
+## Cuotas de tokens
+
+Cada tipo de usuario tiene un límite de tokens por periodo, definido en el `.env`:
+
+| Variable | Por defecto | Uso |
+|---|---|---|
+| `QUOTA_PERIOD` | `day` | `day` (se reinicia cada día, hora de Colombia) o `month` |
+| `QUOTA_ANON` | 20000 | Usuarios sin cuenta (por sesión), unas 5 a 8 preguntas |
+| `QUOTA_REGISTERED` | 200000 | Usuarios registrados |
+| `QUOTA_ADMIN` | 0 | 0 = ilimitado |
+| `QUOTA_<ROL>` | = registrados | Para tipos de usuario nuevos (asigna el rol desde el panel admin) |
+| `CHAT_RATE_LIMIT` | 20 | Preguntas por minuto desde una misma IP |
+
+- Se cuentan los tokens de entrada (instrucciones, normas encontradas e historial) y los de salida (respuesta). Si el proveedor no informa el conteo, se estima en 4 caracteres por token.
+- El consumo se guarda en la tabla `token_usage` y el usuario lo ve debajo de la caja de texto.
+- El límite es "suave": la pregunta que cruza el límite se responde completa y las siguientes se bloquean.
+- Un anónimo que borra sus cookies obtiene cuota nueva; el límite por IP (`CHAT_RATE_LIMIT`) frena el abuso.

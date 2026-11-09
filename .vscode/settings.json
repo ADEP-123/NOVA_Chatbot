@@ -4,6 +4,7 @@
     "auth-sessions",
     "proveedor-IA",
     "Corpus",
-    "Chat"
+    "Chat",
+    "cuotas"
   ]
 }

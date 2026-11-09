@@ -36,7 +36,7 @@ function Sidebar({ conversations, activeId, onSelect, onNew, onDelete, open }) {
 }
 
 export default function Chat() {
-  const { user, loading } = useAuth();
+  const { user, loading, quota, setQuota } = useAuth();
   const [conversations, setConversations] = useState([]);
   const [activeId, setActiveId] = useState(null);
   const [messages, setMessages] = useState([]);
@@ -80,6 +80,7 @@ export default function Chat() {
           updateLast((m) => ({ ...m, sources }));
         },
         onToken: (t) => updateLast((m) => ({ ...m, content: m.content + t })),
+        onDone: (data) => data.quota && setQuota(data.quota),
       });
     } catch (err) {
       if (err.name !== 'AbortError') updateLast((m) => ({ ...m, error: err.message }));
@@ -199,7 +200,15 @@ export default function Chat() {
               </button>
             )}
           </div>
-          <p className="disclaimer">NOVA es un asistente de IA y puede equivocarse. Su orientación no reemplaza la asesoría de un contador o abogado.</p>
+          <p className="disclaimer">
+            NOVA es un asistente de IA y puede equivocarse. Su orientación no reemplaza la asesoría de un contador o abogado.
+            {quota?.limit > 0 && (
+              <span className="block">
+                Uso {quota.period === 'month' ? 'del mes' : 'de hoy'}: {Math.min(quota.used, quota.limit).toLocaleString('es-CO')} de{' '}
+                {quota.limit.toLocaleString('es-CO')} tokens
+              </span>
+            )}
+          </p>
         </form>
       </section>
     </div>
