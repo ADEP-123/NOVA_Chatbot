@@ -207,3 +207,11 @@ Cada tipo de usuario tiene un límite de tokens por periodo, definido en el `.en
 - El consumo se guarda en la tabla `token_usage` y el usuario lo ve debajo de la caja de texto.
 - El límite es "suave": la pregunta que cruza el límite se responde completa y las siguientes se bloquean.
 - Un anónimo que borra sus cookies obtiene cuota nueva; el límite por IP (`CHAT_RATE_LIMIT`) frena el abuso.
+
+## Panel de administración
+
+Entra con el usuario admin y abre **Admin** en la barra superior (`/admin`):
+
+- **Resumen:** usuarios por rol, consumo de tokens del periodo, estado del corpus y modelos configurados.
+- **Usuarios:** buscar, cambiar el rol (escribe uno nuevo para crear un tipo de usuario) y activar o desactivar cuentas. Los cambios aplican de inmediato, aunque el usuario tenga la sesión abierta.
+- **Corpus normativo:** estado de cada fuente; subir PDF, HTML o TXT (se indexa solo); "Indexar pendientes", "Reindexar todo" y reindexar o eliminar una fuente. Los archivos subidos se guardan en el volumen `uploads`.

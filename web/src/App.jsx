@@ -4,6 +4,7 @@ import Layout from './components/Layout.jsx';
 import { Forgot, Login, Register, Reset, Verify } from './pages/AuthPages.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Chat from './pages/Chat.jsx';
+import Admin from './pages/Admin.jsx';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/recuperar" element={<Forgot />} />
             <Route path="/restablecer" element={<Reset />} />
             <Route path="/privacidad" element={<Privacy />} />
+            <Route path="/admin" element={<Admin />} />
             <Route path="*" element={<p className="welcome">Página no encontrada.</p>} />
           </Routes>
         </Layout>
